@@ -408,16 +408,18 @@
     display: flex;
     gap: 4px;
     flex-wrap: wrap;
+    align-items: center;
   }
 
   .profile-badge {
     display: inline-block;
-    padding: 2px 8px;
-    border-radius: 12px;
-    font-size: 0.7rem;
+    padding: 3px 6px;
+    border-radius: 10px;
+    font-size: 0.6rem;
     font-weight: 600;
     color: #fff;
     text-transform: uppercase;
+    line-height: 1;
   }
 
   .top-trends {
