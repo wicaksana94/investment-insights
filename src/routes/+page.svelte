@@ -254,7 +254,9 @@
 
   <div class="floating-donation">
     <a href="https://saweria.co/wicaksana94" target="_blank" rel="noopener noreferrer" title="Donasi via Saweria">
-      <img src="https://saweria.co/widgets/qr?streamKey=80ea6ddcf71777f409051bf827faf7fc" alt="Donasi" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="donation-icon">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+      </svg>
     </a>
   </div>
 </main>
@@ -381,6 +383,7 @@
   td:first-child a {
     color: #00d4ff;
     text-decoration: none;
+    border-bottom: none;
   }
 
   td:first-child a:hover {
@@ -521,14 +524,16 @@
   }
 
   .floating-donation a {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     background: linear-gradient(135deg, #FF6B6B, #FF8E8E);
     box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
     transition: transform 0.3s, box-shadow 0.3s;
-    overflow: hidden;
+    text-decoration: none;
   }
 
   .floating-donation a:hover {
@@ -536,10 +541,10 @@
     box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
   }
 
-  .floating-donation img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .donation-icon {
+    width: 30px;
+    height: 30px;
+    color: white;
   }
 
   /* Mobile Responsive */
