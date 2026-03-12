@@ -99,7 +99,7 @@
       </tr>
       {#each filteredInsights.veryShort.items as item}
         <tr>
-          <td>{item.trend}</td>
+          <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
           <td class="asset-name">{item.asset}</td>
           <td>{item.opportunity}</td>
           <td class="estimate gain">{item.gain}</td>
@@ -130,7 +130,7 @@
       </tr>
       {#each filteredInsights.short.items as item}
         <tr>
-          <td>{item.trend}</td>
+          <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
           <td class="asset-name">{item.asset}</td>
           <td>{item.opportunity}</td>
           <td class="estimate gain">{item.gain}</td>
@@ -161,7 +161,7 @@
       </tr>
       {#each filteredInsights.medium.items as item}
         <tr>
-          <td>{item.trend}</td>
+          <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
           <td class="asset-name">{item.asset}</td>
           <td>{item.opportunity}</td>
           <td class="estimate gain">{item.gain}</td>
@@ -192,7 +192,7 @@
       </tr>
       {#each filteredInsights.long.items as item}
         <tr>
-          <td>{item.trend}</td>
+          <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
           <td class="asset-name">{item.asset}</td>
           <td>{item.opportunity}</td>
           <td class="estimate gain">{item.gain}</td>
@@ -343,6 +343,15 @@
   td:first-child {
     color: #00d4ff;
     font-weight: 500;
+  }
+
+  td:first-child a {
+    color: #00d4ff;
+    text-decoration: none;
+  }
+
+  td:first-child a:hover {
+    text-decoration: underline;
   }
 
   .asset-name {
