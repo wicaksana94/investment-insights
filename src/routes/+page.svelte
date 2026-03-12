@@ -81,10 +81,7 @@
 
   <!-- Very Short Term -->
   <section class="bg-white/5 rounded-2xl p-6 mb-6 border border-white/10">
-    <div class="flex items-center gap-3 mb-4">
-      <h2 class="text-xl text-cyan-400">1 Hari (Very Short-term)</h2>
-      <span class="bg-red-500 text-white text-xs px-3 py-1 rounded-full">1 Hari</span>
-    </div>
+    <h2 class="text-xl text-cyan-400 mb-4">1 Hari (Very Short-term)</h2>
     <div class="overflow-x-auto">
       <table class="w-full text-left text-sm">
         <thead>
@@ -123,10 +120,7 @@
 
   <!-- Short Term -->
   <section class="bg-white/5 rounded-2xl p-6 mb-6 border border-white/10">
-    <div class="flex items-center gap-3 mb-4">
-      <h2 class="text-xl text-cyan-400">7 Hari (Short-term)</h2>
-      <span class="bg-amber-500 text-black text-xs px-3 py-1 rounded-full">7 Hari</span>
-    </div>
+    <h2 class="text-xl text-cyan-400 mb-4">7 Hari (Short-term)</h2>
     <div class="overflow-x-auto">
       <table class="w-full text-left text-sm">
         <thead>
@@ -165,10 +159,7 @@
 
   <!-- Medium Term -->
   <section class="bg-white/5 rounded-2xl p-6 mb-6 border border-white/10">
-    <div class="flex items-center gap-3 mb-4">
-      <h2 class="text-xl text-cyan-400">1 Bulan</h2>
-      <span class="bg-blue-500 text-white text-xs px-3 py-1 rounded-full">1 Bulan</span>
-    </div>
+    <h2 class="text-xl text-cyan-400 mb-4">1 Bulan</h2>
     <div class="overflow-x-auto">
       <table class="w-full text-left text-sm">
         <thead>
@@ -207,10 +198,7 @@
 
   <!-- Long Term -->
   <section class="bg-white/5 rounded-2xl p-6 mb-6 border border-white/10">
-    <div class="flex items-center gap-3 mb-4">
-      <h2 class="text-xl text-cyan-400">6 Bulan - 1 Tahun</h2>
-      <span class="bg-green-500 text-white text-xs px-3 py-1 rounded-full">6-12 Bulan</span>
-    </div>
+    <h2 class="text-xl text-cyan-400 mb-4">6 Bulan - 1 Tahun</h2>
     <div class="overflow-x-auto">
       <table class="w-full text-left text-sm">
         <thead>
