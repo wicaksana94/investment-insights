@@ -13,7 +13,20 @@
     verified = true;
   }
 
-  const { lastUpdated, topTrends, insights } = trendsData;
+  const { lastUpdated, lastUpdatedTimestamp, topTrends, insights } = trendsData;
+
+  function formatTimestamp(isoString) {
+    const date = new Date(isoString);
+    return date.toLocaleString('id-ID', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZoneName: 'short'
+    });
+  }
+
 </script>
 
 <svelte:head>
@@ -24,7 +37,7 @@
   <header>
     <h1>Investment Insights</h1>
     <p>Google Trends Analysis - {lastUpdated}</p>
-    <div class="last-updated">Updated: {lastUpdated}</div>
+    <div class="last-updated">Updated: {lastUpdated} ({formatTimestamp(lastUpdatedTimestamp)})</div>
   </header>
 
   <div class="card">
