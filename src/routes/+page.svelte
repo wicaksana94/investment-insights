@@ -7,13 +7,9 @@
     inject();
   });
 
-  let verified = false;
+  let selectedRegion = trendsData.region || 'US';
 
-  function onCaptchaVerify(token) {
-    verified = true;
-  }
-
-  const { lastUpdated, lastUpdatedTimestamp, topTrends, insights } = trendsData;
+  const { lastUpdated, lastUpdatedTimestamp, regions, topTrends, insights } = trendsData;
 
   function formatTimestamp(isoString) {
     const date = new Date(isoString);
@@ -27,6 +23,14 @@
     });
   }
 
+  function getProfileLabel(profile) {
+    const labels = {
+      'safe': { text: 'Safe', color: '#10b981' },
+      'medium': { text: 'Medium', color: '#f59e0b' },
+      'aggressive': { text: 'Aggressive', color: '#ef4444' }
+    };
+    return labels[profile] || { text: profile, color: '#6b7280' };
+  }
 </script>
 
 <svelte:head>
@@ -37,13 +41,23 @@
   <header>
     <h1>Investment Insights</h1>
     <p>Google Trends Analysis - {lastUpdated}</p>
+    
+    <div class="region-selector">
+      <label for="region">Region:</label>
+      <select id="region" bind:value={selectedRegion}>
+        {#each regions as region}
+          <option value={region}>{region === 'US' ? 'Amerika Serikat' : 'Indonesia'}</option>
+        {/each}
+      </select>
+    </div>
+    
     <div class="last-updated">Updated: {lastUpdated} ({formatTimestamp(lastUpdatedTimestamp)})</div>
   </header>
 
   <div class="card">
-    <h2>Top Trending di US</h2>
+    <h2>Top Trending di {selectedRegion === 'US' ? 'US' : 'Indonesia'}</h2>
     <div class="top-trends">
-      {#each topTrends as item}
+      {#each topTrends[selectedRegion] || topTrends['US'] as item}
         <div class="trend-item">
           <div class="name">{item.name}</div>
           <div class="growth">{item.growth}</div>
@@ -62,6 +76,7 @@
         <th>Opportunity</th>
         <th>Estimasi Kenaikan</th>
         <th>Estimasi Penurunan</th>
+        <th>Profile</th>
       </tr>
       {#each insights.veryShort.items as item}
         <tr>
@@ -70,6 +85,13 @@
           <td>{item.opportunity}</td>
           <td class="estimate gain">{item.gain}</td>
           <td class="estimate loss">{item.loss}</td>
+          <td class="profiles">
+            {#each item.profiles || [] as profile}
+              <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                {getProfileLabel(profile).text}
+              </span>
+            {/each}
+          </td>
         </tr>
       {/each}
     </table>
@@ -85,6 +107,7 @@
         <th>Opportunity</th>
         <th>Estimasi Kenaikan</th>
         <th>Estimasi Penurunan</th>
+        <th>Profile</th>
       </tr>
       {#each insights.short.items as item}
         <tr>
@@ -93,6 +116,13 @@
           <td>{item.opportunity}</td>
           <td class="estimate gain">{item.gain}</td>
           <td class="estimate loss">{item.loss}</td>
+          <td class="profiles">
+            {#each item.profiles || [] as profile}
+              <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                {getProfileLabel(profile).text}
+              </span>
+            {/each}
+          </td>
         </tr>
       {/each}
     </table>
@@ -108,6 +138,7 @@
         <th>Opportunity</th>
         <th>Estimasi Kenaikan</th>
         <th>Estimasi Penurunan</th>
+        <th>Profile</th>
       </tr>
       {#each insights.medium.items as item}
         <tr>
@@ -116,6 +147,13 @@
           <td>{item.opportunity}</td>
           <td class="estimate gain">{item.gain}</td>
           <td class="estimate loss">{item.loss}</td>
+          <td class="profiles">
+            {#each item.profiles || [] as profile}
+              <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                {getProfileLabel(profile).text}
+              </span>
+            {/each}
+          </td>
         </tr>
       {/each}
     </table>
@@ -131,6 +169,7 @@
         <th>Opportunity</th>
         <th>Estimasi Kenaikan</th>
         <th>Estimasi Penurunan</th>
+        <th>Profile</th>
       </tr>
       {#each insights.long.items as item}
         <tr>
@@ -139,9 +178,25 @@
           <td>{item.opportunity}</td>
           <td class="estimate gain">{item.gain}</td>
           <td class="estimate loss">{item.loss}</td>
+          <td class="profiles">
+            {#each item.profiles || [] as profile}
+              <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                {getProfileLabel(profile).text}
+              </span>
+            {/each}
+          </td>
         </tr>
       {/each}
     </table>
+  </div>
+
+  <div class="profile-legend">
+    <h3>Legend Profile Investasi:</h3>
+    <div class="legend-items">
+      <span class="profile-badge" style="background-color: #10b981">Safe</span> - Risiko rendah, return stabil
+      <span class="profile-badge" style="background-color: #f59e0b">Medium</span> - Risiko sedang, return menengah
+      <span class="profile-badge" style="background-color: #ef4444">Aggressive</span> - Risiko tinggi, return tinggi
+    </div>
   </div>
 
   <div class="captcha-container">
@@ -174,13 +229,13 @@
   }
 
   .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
   }
 
   header {
     text-align: center;
-    padding: 40px 0;
+    padding: 40px 0 20px;
   }
 
   header h1 {
@@ -194,6 +249,30 @@
   header p {
     color: #8892b0;
     margin-top: 10px;
+  }
+
+  .region-selector {
+    margin: 20px 0;
+  }
+
+  .region-selector label {
+    margin-right: 10px;
+    color: #8892b0;
+  }
+
+  .region-selector select {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .region-selector select option {
+    background: #1a1a2e;
+    color: #fff;
   }
 
   .card {
@@ -264,6 +343,22 @@
     color: #ef4444;
   }
 
+  .profiles {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+
+  .profile-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
   .top-trends {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -314,5 +409,27 @@
     display: flex;
     justify-content: center;
     margin: 20px 0;
+  }
+
+  .profile-legend {
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+
+  .profile-legend h3 {
+    color: #8892b0;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+  }
+
+  .legend-items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #ccc;
   }
 </style>
