@@ -80,9 +80,9 @@
           <option value={region}>{region === 'US' ? 'Amerika Serikat' : 'Indonesia'}</option>
         {/each}
       </select>
-    </div>
     
-    <div class="last-updated">Updated: {lastUpdated}</div>
+    
+    <div class="last-updated">Updated: {lastUpdated}
   </header>
 
   <div class="card">
@@ -90,17 +90,17 @@
     <div class="top-trends">
       {#each topTrends[selectedRegion] || topTrends['US'] as item}
         <a href={item.url} target="_blank" rel="noopener noreferrer" class="trend-item">
-          <div class="name">{item.name}</div>
-          <div class="growth">{item.growth}</div>
+          <div class="name">{item.name}
+          <div class="growth">{item.growth}
         </a>
       {/each}
-    </div>
-  </div>
+    
+  
 
   <div class="card">
     <h2>1 Hari (Very Short-term)</h2>
     <span class="timeframe very-short">{filteredInsights.veryShort.label}</span>
-    <div class="table-scroll">
+    
       <table>
         <tr>
           <th>Tren</th>
@@ -127,13 +127,13 @@
           </tr>
         {/each}
       </table>
-    </div>
-  </div>
+    
+  
 
   <div class="card">
     <h2>7 Hari (Short-term)</h2>
     <span class="timeframe short">{filteredInsights.short.label}</span>
-    <div class="table-scroll">
+    
       <table>
         <tr>
           <th>Tren</th>
@@ -160,13 +160,13 @@
           </tr>
         {/each}
       </table>
-    </div>
-  </div>
+    
+  
 
   <div class="card">
     <h2>1 Bulan</h2>
     <span class="timeframe medium">{filteredInsights.medium.label}</span>
-    <div class="table-scroll">
+    
       <table>
         <tr>
           <th>Tren</th>
@@ -193,13 +193,13 @@
           </tr>
         {/each}
       </table>
-    </div>
-  </div>
+    
+  
 
   <div class="card">
     <h2>6 Bulan - 1 Tahun</h2>
     <span class="timeframe long">{filteredInsights.long.label}</span>
-    <div class="table-scroll">
+    
       <table>
         <tr>
           <th>Tren</th>
@@ -226,8 +226,8 @@
           </tr>
         {/each}
       </table>
-    </div>
-  </div>
+    
+  
 
   <div class="profile-legend">
     <h3>Keterangan Profile Investasi:</h3>
@@ -235,17 +235,17 @@
       <span class="profile-badge" style="background-color: #10b981">Safe</span> - Risiko rendah, return stabil
       <span class="profile-badge" style="background-color: #f59e0b">Medium</span> - Risiko sedang, return menengah
       <span class="profile-badge" style="background-color: #ef4444">Aggressive</span> - Risiko tinggi, return tinggi
-    </div>
-  </div>
+    
+  
 
   <div class="captcha-container">
-    <div class="h-captcha" data-sitekey="1fa43efa-6a1c-467a-b082-ad1a6ba0302a"></div>
-  </div>
+    <div class="h-captcha" data-sitekey="1fa43efa-6a1c-467a-b082-ad1a6ba0302a">
+  
 
   <div class="disclaimer">
     Disclaimer: Ini berdasarkan Google Trends search patterns, BUKAN financial advice. 
     Lakukan riset sendiri sebelum investasi. Risiko rugi selalu ada.
-  </div>
+  
 
   <footer>
     <p>&copy; 2026 Investment Insights. All rights reserved.</p>
@@ -258,7 +258,7 @@
         <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
       </svg>
     </a>
-  </div>
+  
 </main>
 
 <style>
@@ -351,33 +351,29 @@
   .medium { background: #3b82f6; color: #fff; }
   .long { background: #10b981; color: #fff; }
 
-  .table-scroll {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    margin-top: 12px;
-  }
-
   table {
     width: 100%;
     border-collapse: collapse;
-    min-width: 500px;
+    min-width: 450px;
+    overflow-x: auto;
+    display: block;
   }
 
   th, td {
     text-align: left;
-    padding: 10px 8px;
+    padding: 8px 6px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
   }
 
   th {
     color: #8892b0;
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     background: rgba(255,255,255,0.02);
   }
 
   td {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 
   td a {
@@ -396,7 +392,7 @@
   }
 
   .estimate {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     white-space: nowrap;
   }
 
