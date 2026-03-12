@@ -100,36 +100,32 @@
   <div class="card">
     <h2>1 Hari (Very Short-term)</h2>
     <span class="timeframe very-short">{filteredInsights.veryShort.label}</span>
-    <div class="table-wrapper">
+    <div class="table-scroll">
       <table>
-        <thead>
+        <tr>
+          <th>Tren</th>
+          <th>Asset/Saham</th>
+          <th>Opportunity</th>
+          <th title="Ini merupakan estimasi kenaikan dalam 1 hari">Estimasi Kenaikan</th>
+          <th title="Ini merupakan estimasi penurunan dalam 1 hari">Estimasi Penurunan</th>
+          <th>Profile</th>
+        </tr>
+        {#each filteredInsights.veryShort.items as item}
           <tr>
-            <th>Tren</th>
-            <th>Asset/Saham</th>
-            <th>Opportunity</th>
-            <th title="Ini merupakan estimasi kenaikan dalam 1 hari">Estimasi Kenaikan</th>
-            <th title="Ini merupakan estimasi penurunan dalam 1 hari">Estimasi Penurunan</th>
-            <th>Profile</th>
+            <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
+            <td class="asset-name">{item.asset}</td>
+            <td>{item.opportunity}</td>
+            <td class="estimate gain">{item.gain}</td>
+            <td class="estimate loss">{item.loss}</td>
+            <td class="profiles">
+              {#each item.profiles || [] as profile}
+                <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                  {getProfileLabel(profile).text}
+                </span>
+              {/each}
+            </td>
           </tr>
-        </thead>
-        <tbody>
-          {#each filteredInsights.veryShort.items as item}
-            <tr>
-              <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
-              <td class="asset-name">{item.asset}</td>
-              <td>{item.opportunity}</td>
-              <td class="estimate gain">{item.gain}</td>
-              <td class="estimate loss">{item.loss}</td>
-              <td class="profiles">
-                {#each item.profiles || [] as profile}
-                  <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
-                    {getProfileLabel(profile).text}
-                  </span>
-                {/each}
-              </td>
-            </tr>
-          {/each}
-        </tbody>
+        {/each}
       </table>
     </div>
   </div>
@@ -137,36 +133,32 @@
   <div class="card">
     <h2>7 Hari (Short-term)</h2>
     <span class="timeframe short">{filteredInsights.short.label}</span>
-    <div class="table-wrapper">
+    <div class="table-scroll">
       <table>
-        <thead>
+        <tr>
+          <th>Tren</th>
+          <th>Asset/Saham</th>
+          <th>Opportunity</th>
+          <th title="Ini merupakan estimasi kenaikan dalam 7 hari">Estimasi Kenaikan</th>
+          <th title="Ini merupakan estimasi penurunan dalam 7 hari">Estimasi Penurunan</th>
+          <th>Profile</th>
+        </tr>
+        {#each filteredInsights.short.items as item}
           <tr>
-            <th>Tren</th>
-            <th>Asset/Saham</th>
-            <th>Opportunity</th>
-            <th title="Ini merupakan estimasi kenaikan dalam 7 hari">Estimasi Kenaikan</th>
-            <th title="Ini merupakan estimasi penurunan dalam 7 hari">Estimasi Penurunan</th>
-            <th>Profile</th>
+            <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
+            <td class="asset-name">{item.asset}</td>
+            <td>{item.opportunity}</td>
+            <td class="estimate gain">{item.gain}</td>
+            <td class="estimate loss">{item.loss}</td>
+            <td class="profiles">
+              {#each item.profiles || [] as profile}
+                <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                  {getProfileLabel(profile).text}
+                </span>
+              {/each}
+            </td>
           </tr>
-        </thead>
-        <tbody>
-          {#each filteredInsights.short.items as item}
-            <tr>
-              <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
-              <td class="asset-name">{item.asset}</td>
-              <td>{item.opportunity}</td>
-              <td class="estimate gain">{item.gain}</td>
-              <td class="estimate loss">{item.loss}</td>
-              <td class="profiles">
-                {#each item.profiles || [] as profile}
-                  <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
-                    {getProfileLabel(profile).text}
-                  </span>
-                {/each}
-              </td>
-            </tr>
-          {/each}
-        </tbody>
+        {/each}
       </table>
     </div>
   </div>
@@ -174,36 +166,32 @@
   <div class="card">
     <h2>1 Bulan</h2>
     <span class="timeframe medium">{filteredInsights.medium.label}</span>
-    <div class="table-wrapper">
+    <div class="table-scroll">
       <table>
-        <thead>
+        <tr>
+          <th>Tren</th>
+          <th>Asset/Saham</th>
+          <th>Opportunity</th>
+          <th title="Ini merupakan estimasi kenaikan dalam 1 bulan">Estimasi Kenaikan</th>
+          <th title="Ini merupakan estimasi penurunan dalam 1 bulan">Estimasi Penurunan</th>
+          <th>Profile</th>
+        </tr>
+        {#each filteredInsights.medium.items as item}
           <tr>
-            <th>Tren</th>
-            <th>Asset/Saham</th>
-            <th>Opportunity</th>
-            <th title="Ini merupakan estimasi kenaikan dalam 1 bulan">Estimasi Kenaikan</th>
-            <th title="Ini merupakan estimasi penurunan dalam 1 bulan">Estimasi Penurunan</th>
-            <th>Profile</th>
+            <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
+            <td class="asset-name">{item.asset}</td>
+            <td>{item.opportunity}</td>
+            <td class="estimate gain">{item.gain}</td>
+            <td class="estimate loss">{item.loss}</td>
+            <td class="profiles">
+              {#each item.profiles || [] as profile}
+                <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                  {getProfileLabel(profile).text}
+                </span>
+              {/each}
+            </td>
           </tr>
-        </thead>
-        <tbody>
-          {#each filteredInsights.medium.items as item}
-            <tr>
-              <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
-              <td class="asset-name">{item.asset}</td>
-              <td>{item.opportunity}</td>
-              <td class="estimate gain">{item.gain}</td>
-              <td class="estimate loss">{item.loss}</td>
-              <td class="profiles">
-                {#each item.profiles || [] as profile}
-                  <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
-                    {getProfileLabel(profile).text}
-                  </span>
-                {/each}
-              </td>
-            </tr>
-          {/each}
-        </tbody>
+        {/each}
       </table>
     </div>
   </div>
@@ -211,36 +199,32 @@
   <div class="card">
     <h2>6 Bulan - 1 Tahun</h2>
     <span class="timeframe long">{filteredInsights.long.label}</span>
-    <div class="table-wrapper">
+    <div class="table-scroll">
       <table>
-        <thead>
+        <tr>
+          <th>Tren</th>
+          <th>Asset/Saham</th>
+          <th>Opportunity</th>
+          <th title="Ini merupakan estimasi kenaikan dalam 6-12 bulan">Estimasi Kenaikan</th>
+          <th title="Ini merupakan estimasi penurunan dalam 6-12 bulan">Estimasi Penurunan</th>
+          <th>Profile</th>
+        </tr>
+        {#each filteredInsights.long.items as item}
           <tr>
-            <th>Tren</th>
-            <th>Asset/Saham</th>
-            <th>Opportunity</th>
-            <th title="Ini merupakan estimasi kenaikan dalam 6-12 bulan">Estimasi Kenaikan</th>
-            <th title="Ini merupakan estimasi penurunan dalam 6-12 bulan">Estimasi Penurunan</th>
-            <th>Profile</th>
+            <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
+            <td class="asset-name">{item.asset}</td>
+            <td>{item.opportunity}</td>
+            <td class="estimate gain">{item.gain}</td>
+            <td class="estimate loss">{item.loss}</td>
+            <td class="profiles">
+              {#each item.profiles || [] as profile}
+                <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                  {getProfileLabel(profile).text}
+                </span>
+              {/each}
+            </td>
           </tr>
-        </thead>
-        <tbody>
-          {#each filteredInsights.long.items as item}
-            <tr>
-              <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
-              <td class="asset-name">{item.asset}</td>
-              <td>{item.opportunity}</td>
-              <td class="estimate gain">{item.gain}</td>
-              <td class="estimate loss">{item.loss}</td>
-              <td class="profiles">
-                {#each item.profiles || [] as profile}
-                  <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
-                    {getProfileLabel(profile).text}
-                  </span>
-                {/each}
-              </td>
-            </tr>
-          {/each}
-        </tbody>
+        {/each}
       </table>
     </div>
   </div>
@@ -365,7 +349,7 @@
   .medium { background: #3b82f6; color: #fff; }
   .long { background: #10b981; color: #fff; }
 
-  .table-wrapper {
+  .table-scroll {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     margin-top: 12px;
