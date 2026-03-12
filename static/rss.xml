@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Investment Insights</title>
+    <link>https://investment-insights-sveltekit.vercel.app</link>
+    <description>Analisis tren investasi harian berdasarkan Google Trends untuk pasar US dan Indonesia</description>
+    <language>id</language>
+    <lastBuildDate>Thu, 12 Mar 2026 17:30:00 +0700</lastBuildDate>
+    <atom:link href="https://investment-insights-sveltekit.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Investment Insights - Update Harian</title>
+      <link>https://investment-insights-sveltekit.vercel.app</link>
+      <description>Analisis investasi terbaru berdasarkan Google Trends</description>
+      <pubDate>Thu, 12 Mar 2026 17:30:00 +0700</pubDate>
+      <guid>https://investment-insights-sveltekit.vercel.app</guid>
+    </item>
+  </channel>
+</rss>
