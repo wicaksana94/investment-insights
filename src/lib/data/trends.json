@@ -1,31 +1,31 @@
 {
   "lastUpdated": "12 Maret 2026",
-  "lastUpdatedTimestamp": "2026-03-12T15:42:00+07:00",
+  "lastUpdatedTimestamp": "2026-03-12T15:44:00+07:00",
   "topTrends": [
+    { "name": "Iran California", "volume": "200K+", "growth": "+800%" },
     { "name": "PSG vs Chelsea", "volume": "200K+", "growth": "+1,000%" },
     { "name": "Vinnie Pasquantino", "volume": "200K+", "growth": "+1,000%" },
-    { "name": "Weather", "volume": "200K+", "growth": "+75%" },
-    { "name": "Iran California", "volume": "100K+", "growth": "+900%" },
-    { "name": "Venezuala vs DR", "volume": "100K+", "growth": "+900%" },
-    { "name": "Rivian R2", "volume": "10K+", "growth": "+100%" },
-    { "name": "Jake Paul", "volume": "20K+", "growth": "+1,000%" },
-    { "name": "Cyber Attacks", "volume": "20K+", "growth": "+1,000%" }
+    { "name": "Dominican Republic vs Venezuela", "volume": "100K+", "growth": "+1,000%" },
+    { "name": "Jake Paul", "volume": "50K+", "growth": "+1,000%" },
+    { "name": "Rockets vs Nuggets", "volume": "50K+", "growth": "+1,000%" },
+    { "name": "Knicks vs Jazz", "volume": "50K+", "growth": "+1,000%" },
+    { "name": "Iranian Cyber Attacks", "volume": "20K+", "growth": "+1,000%" }
   ],
   "insights": {
     "veryShort": {
       "label": "1 Hari",
       "items": [
         { "trend": "Olahraga (PSG, NBA)", "asset": "DIS, WBD", "opportunity": "Sports media rights, streaming", "gain": "+3-5%", "loss": "-2-3%" },
-        { "trend": "Winter Storm", "asset": "XLU, NEE", "opportunity": "Utility stocks, emergency supplies", "gain": "+2-4%", "loss": "-1-2%" },
-        { "trend": "Iran Tensions", "asset": "LMT, RTX, PANW", "opportunity": "Defense & Cybersecurity", "gain": "+4-8%", "loss": "-3-5%" }
+        { "trend": "Iran Tensions", "asset": "LMT, RTX, PANW", "opportunity": "Defense & Cybersecurity", "gain": "+4-8%", "loss": "-3-5%" },
+        { "trend": "Cyber Attacks", "asset": "CRWD, ZS, PANW", "opportunity": "Cybersecurity stocks", "gain": "+3-6%", "loss": "-2-4%" }
       ]
     },
     "short": {
       "label": "7 Hari",
       "items": [
         { "trend": "Olahraga (PSG, NBA)", "asset": "DIS, PENN, DKNG", "opportunity": "Sports betting stocks", "gain": "+5-10%", "loss": "-3-5%" },
-        { "trend": "Winter Storm", "asset": "XLU, ED", "opportunity": "Utility stocks", "gain": "+3-6%", "loss": "-2-4%" },
-        { "trend": "Iran Tensions", "asset": "LMT, RTX, CRWD, ZS", "opportunity": "Defense & Cybersecurity", "gain": "+8-15%", "loss": "-5-8%" }
+        { "trend": "Iran Tensions", "asset": "LMT, RTX, CRWD, ZS", "opportunity": "Defense & Cybersecurity", "gain": "+8-15%", "loss": "-5-8%" },
+        { "trend": "Baseball Season", "asset": "DIS, YHOO, MGM", "opportunity": "Sports media", "gain": "+4-8%", "loss": "-2-5%" }
       ]
     },
     "medium": {
