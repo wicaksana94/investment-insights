@@ -1,289 +1,64 @@
 {
-  "lastUpdated": "12 Maret 2026",
-  "lastUpdatedTimestamp": "2026-03-12T22:01:00+07:00",
+  "lastUpdated": "13 Maret 2026",
+  "lastUpdatedTimestamp": "2026-03-13T04:03:00+07:00",
   "region": "US",
   "regions": ["US", "ID"],
   "topTrends": {
     "US": [
-      { "name": "Iran California", "volume": "200K+", "growth": "+800%", "url": "https://news.google.com/search?q=Iran+California+news" },
-      { "name": "PSG vs Chelsea", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=PSG+vs+Chelsea" },
-      { "name": "Vinnie Pasquantino", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Vinnie+Pasquantino" },
-      { "name": "Dominican Republic vs Venezuela", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Dominican+Republic+vs+Venezuela" },
-      { "name": "The Players (golf)", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=The+Players+golf+2026" },
-      { "name": "Jake Paul", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Jake+Paul+news" },
-      { "name": "Rockets vs Nuggets", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Rockets+Nuggets" },
-      { "name": "Knicks vs Jazz", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Knicks+Jazz" }
+      { "name": "Old Dominion University", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Old+Dominion+University" },
+      { "name": "Temple Israel West Bloomfield", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Temple+Israel+West+Bloomfield" },
+      { "name": "The Players Championship", "volume": "50K+", "growth": "+500%", "url": "https://news.google.com/search?q=The+Players+Championship+golf" },
+      { "name": "The Players", "volume": "50K+", "growth": "+900%", "url": "https://news.google.com/search?q=The+Players+golf+2026" },
+      { "name": "Washington vs Wisconsin", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Washington+vs+Wisconsin" },
+      { "name": "Europa League", "volume": "50K+", "growth": "+100%", "url": "https://news.google.com/search?q=Europa+League+2026" },
+      { "name": "Auburn Basketball", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Auburn+basketball" },
+      { "name": "NCAA Basketball", "volume": "100K+", "growth": "+100%", "url": "https://news.google.com/search?q=NCAA+basketball" }
     ],
     "ID": [
-      { "name": "PSG vs Chelsea", "volume": "100K+", "growth": "+500%", "url": "https://news.google.com/search?q=PSG+vs+Chelsea+Indonesia" },
       { "name": "Indonesia vs Australia", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" },
-      { "name": "Harga Emas", "volume": "50K+", "growth": "+200%", "url": "https://news.google.com/search?q=harga+emas+Indonesia+2026" },
-      { "name": "Crypto", "volume": "50K+", "growth": "+150%", "url": "https://news.google.com/search?q=crypto+Indonesia+2026" },
+      { "name": "Harga Emas", "volume": "50K+", "growth": "+200%", "url": "https://news.google.com/search?q=harga+emas+Indonesia" },
+      { "name": "Crypto", "volume": "50K+", "growth": "+150%", "url": "https://news.google.com/search?q=crypto+Indonesia" },
       { "name": "IHSG", "volume": "50K+", "growth": "+100%", "url": "https://news.google.com/search?q=IHSG+2026" },
       { "name": "Reksa Dana", "volume": "20K+", "growth": "+80%", "url": "https://news.google.com/search?q=reksa+dana+Indonesia" },
       { "name": "Saham BBCA", "volume": "20K+", "growth": "+50%", "url": "https://news.google.com/search?q=saham+BBCA" },
-      { "name": "Bitcoin", "volume": "20K+", "growth": "+120%", "url": "https://news.google.com/search?q=bitcoin+Indonesia" }
+      { "name": "Bitcoin", "volume": "20K+", "growth": "+120%", "url": "https://news.google.com/search?q=bitcoin+Indonesia" },
+      { "name": "PSG vs Chelsea", "volume": "50K+", "growth": "+300%", "url": "https://news.google.com/search?q=PSG+vs+Chelsea" }
     ]
   },
   "insights": {
     "veryShort": {
       "label": "1 Hari",
       "items": [
-        { 
-          "region": "US",
-          "trend": "Olahraga (PSG, NBA)", 
-          "asset": "DIS, WBD", 
-          "opportunity": "Sports media rights, streaming", 
-          "gain": "+3-5%", 
-          "loss": "-2-3%", 
-          "profiles": ["medium", "aggressive"],
-          "url": "https://news.google.com/search?q=sports+betting+streaming"
-        },
-        { 
-          "region": "ID",
-          "trend": "Olahraga (PSG, Timnas)", 
-          "asset": "EMTK, MNCN, SCMA", 
-          "opportunity": "Media & hak siar olahraga", 
-          "gain": "+2-4%", 
-          "loss": "-1-3%", 
-          "profiles": ["medium", "aggressive"],
-          "url": "https://news.google.com/search?q=media+Indonesia+sports"
-        },
-        { 
-          "region": "US",
-          "trend": "Winter Storm", 
-          "asset": "XLU, NEE", 
-          "opportunity": "Utility stocks, emergency supplies", 
-          "gain": "+2-4%", 
-          "loss": "-1-2%", 
-          "profiles": ["safe", "medium"],
-          "url": "https://news.google.com/search?q=winter+storm+USA"
-        },
-        { 
-          "region": "ID",
-          "trend": "Cuaca Ekstrem", 
-          "asset": "PGAS, PTBA, ADRO", 
-          "opportunity": "Batubara & utilities", 
-          "gain": "+1-3%", 
-          "loss": "-1-2%", 
-          "profiles": ["safe", "medium"],
-          "url": "https://news.google.com/search?q=cuaca+ekstrem+Indonesia"
-        }
+        { "region": "US", "trend": "NCAA Basketball", "asset": "DIS, WBD, TNT", "opportunity": "Sports media & broadcasting", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=NCAA+basketball+2026" },
+        { "region": "ID", "trend": "Olahraga (Timnas)", "asset": "EMTK, MNCN, SCMA", "opportunity": "Media & hak siar olahraga", "gain": "+2-4%", "loss": "-1-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" }
       ]
     },
     "short": {
       "label": "7 Hari",
       "items": [
-        { 
-          "region": "US",
-          "trend": "Olahraga (PSG, NBA)", 
-          "asset": "DIS, PENN, DKNG", 
-          "opportunity": "Sports betting stocks", 
-          "gain": "+5-10%", 
-          "loss": "-3-5%", 
-          "profiles": ["aggressive"],
-          "url": "https://news.google.com/search?q=sports+betting+stocks"
-        },
-        { 
-          "region": "ID",
-          "trend": "Olahraga (PSG, Timnas)", 
-          "asset": "EMTK, VIDI, SCTV", 
-          "opportunity": "Media & sports betting Indonesia", 
-          "gain": "+3-7%", 
-          "loss": "-2-4%", 
-          "profiles": ["medium", "aggressive"],
-          "url": "https://news.google.com/search?q=pertanding+sepak+bola+Indonesia"
-        },
-        { 
-          "region": "US",
-          "trend": "Harga Emas", 
-          "asset": "GOLD, GLD, IAU", 
-          "opportunity": "Safe haven asset", 
-          "gain": "+2-5%", 
-          "loss": "-1-3%", 
-          "profiles": ["safe"],
-          "url": "https://news.google.com/search?q=gold+price+2026"
-        },
-        { 
-          "region": "ID",
-          "trend": "Harga Emas (Antam)", 
-          "asset": "ANTM, GGRM", 
-          "opportunity": "Emas & holdings", 
-          "gain": "+2-5%", 
-          "loss": "-1-3%", 
-          "profiles": ["safe"],
-          "url": "https://news.google.com/search?q=harga+emas+antm"
-        },
-        { 
-          "region": "US",
-          "trend": "Crypto", 
-          "asset": "BTC, ETH, COIN", 
-          "opportunity": "High risk crypto", 
-          "gain": "+10-25%", 
-          "loss": "-15-20%", 
-          "profiles": ["aggressive"],
-          "url": "https://news.google.com/search?q=crypto+bitcoin+2026"
-        },
-        { 
-          "region": "ID",
-          "trend": "Crypto", 
-          "asset": "INDODAX, Tokocrypto", 
-          "opportunity": "Kripto exchanges", 
-          "gain": "+8-20%", 
-          "loss": "-12-18%", 
-          "profiles": ["aggressive"],
-          "url": "https://news.google.com/search?q=krypto+Indonesia"
-        }
+        { "region": "US", "trend": "The Players Championship", "asset": "DIS, WBD", "opportunity": "Golf tournament coverage", "gain": "+3-6%", "loss": "-2-4%", "profiles": ["medium"], "url": "https://news.google.com/search?q=The+Players+Championship+golf" },
+        { "region": "US", "trend": "Europa League", "asset": "DIS, PENN", "opportunity": "European football streaming", "gain": "+2-5%", "loss": "-1-3%", "profiles": ["medium"], "url": "https://news.google.com/search?q=Europa+League" },
+        { "region": "ID", "trend": "Harga Emas", "asset": "ANTM, GGRM", "opportunity": "Emas & holdings", "gain": "+2-5%", "loss": "-1-3%", "profiles": ["safe"], "url": "https://news.google.com/search?q=harga+emas+Indonesia" },
+        { "region": "ID", "trend": "Crypto", "asset": "INDODAX, Tokocrypto", "opportunity": "Kripto exchanges", "gain": "+8-20%", "loss": "-12-18%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=krypto+Indonesia" }
       ]
     },
     "medium": {
       "label": "1 Bulan",
       "items": [
-        { 
-          "region": "US",
-          "trend": "Rivian R2", 
-          "asset": "RIVN, TSLA, LCID", 
-          "opportunity": "EV stocks preview launches", 
-          "gain": "+10-20%", 
-          "loss": "-8-12%", 
-          "profiles": ["aggressive"],
-          "url": "https://news.google.com/search?q=Rivian+R2+launch"
-        },
-        { 
-          "region": "US",
-          "trend": "Cybersecurity", 
-          "asset": "CRWD, ZS, PANW, OKTA", 
-          "opportunity": "Enterprise security", 
-          "gain": "+15-25%", 
-          "loss": "-8-15%", 
-          "profiles": ["medium", "aggressive"],
-          "url": "https://news.google.com/search?q=cybersecurity+stocks"
-        },
-        { 
-          "region": "ID",
-          "trend": "IHSG / Saham Lokal", 
-          "asset": "BBCA, BMRI, TLKM, ASII", 
-          "opportunity": "Saham blue chip Indonesia", 
-          "gain": "+5-12%", 
-          "loss": "-4-8%", 
-          "profiles": ["safe", "medium"],
-          "url": "https://news.google.com/search?q=IHSG+saham+Indonesia"
-        },
-        { 
-          "region": "ID",
-          "trend": "Reksa Dana", 
-          "asset": "Reksa Dana Saham", 
-          "opportunity": "Mixed equity fund", 
-          "gain": "+6-15%", 
-          "loss": "-5-10%", 
-          "profiles": ["medium"],
-          "url": "https://news.google.com/search?q=reksa+dana+saham+2026"
-        },
-        { 
-          "region": "ID",
-          "trend": "Sektor Perbankan", 
-          "asset": "BBRI, BBNI, BTPN", 
-          "opportunity": "Bank blue chip", 
-          "gain": "+4-10%", 
-          "loss": "-3-6%", 
-          "profiles": ["safe", "medium"],
-          "url": "https://news.google.com/search?q=bank+Indonesia+saham"
-        },
-        { 
-          "region": "ID",
-          "trend": "Sektor Konsumer", 
-          "asset": "UNVR, KLBF, ICBP", 
-          "opportunity": "Konsumsi & farmasi", 
-          "gain": "+3-8%", 
-          "loss": "-2-5%", 
-          "profiles": ["safe", "medium"],
-          "url": "https://news.google.com/search?q=saham+konsumer+Indonesia"
-        }
+        { "region": "US", "trend": "Rivian", "asset": "RIVN, TSLA, LCID", "opportunity": "EV stocks", "gain": "+10-20%", "loss": "-8-12%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=Rivian+2026" },
+        { "region": "US", "trend": "Cybersecurity", "asset": "CRWD, ZS, PANW", "opportunity": "Enterprise security", "gain": "+15-25%", "loss": "-8-15%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=cybersecurity+stocks" },
+        { "region": "ID", "trend": "IHSG / Saham Lokal", "asset": "BBCA, BMRI, TLKM, ASII", "opportunity": "Saham blue chip Indonesia", "gain": "+5-12%", "loss": "-4-8%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=IHSG+saham+Indonesia" },
+        { "region": "ID", "trend": "Reksa Dana", "asset": "Reksa Dana Saham", "opportunity": "Mixed equity fund", "gain": "+6-15%", "loss": "-5-10%", "profiles": ["medium"], "url": "https://news.google.com/search?q=reksa+dana+saham+2026" }
       ]
     },
     "long": {
       "label": "6-12 Bulan",
       "items": [
-        { 
-          "region": "US",
-          "trend": "EV Overall", 
-          "asset": "TSLA, RIVN, BYD, FSR", 
-          "opportunity": "Electric vehicles", 
-          "gain": "+20-40%", 
-          "loss": "-15-25%", 
-          "profiles": ["aggressive"],
-          "url": "https://news.google.com/search?q=electric+vehicles+2026"
-        },
-        { 
-          "region": "US",
-          "trend": "AI/Cloud", 
-          "asset": "NVDA, MSFT, GOOGL, AMZN", 
-          "opportunity": "AI infrastructure", 
-          "gain": "+30-60%", 
-          "loss": "-20-35%", 
-          "profiles": ["aggressive"],
-          "url": "https://news.google.com/search?q=AI+stocks+2026"
-        },
-        { 
-          "region": "US",
-          "trend": "Emas / Gold", 
-          "asset": "GLD, IAU, PPOG", 
-          "opportunity": "Safe haven / Inflation hedge", 
-          "gain": "+8-15%", 
-          "loss": "-5-10%", 
-          "profiles": ["safe"],
-          "url": "https://news.google.com/search?q=gold+investment+2026"
-        },
-        { 
-          "region": "ID",
-          "trend": "Emas / Logam Mulia", 
-          "asset": "ANTM, GGRM, INCO, MDKA", 
-          "opportunity": "Mining & metal", 
-          "gain": "+8-18%", 
-          "loss": "-5-12%", 
-          "profiles": ["safe", "medium"],
-          "url": "https://news.google.com/search?q=penambang+emas+Indonesia"
-        },
-        { 
-          "region": "ID",
-          "trend": "Infrastruktur", 
-          "asset": "WIKA, PTPP, ADHI, JSMR", 
-          "opportunity": "Proyek infrastruktur", 
-          "gain": "+10-25%", 
-          "loss": "-8-15%", 
-          "profiles": ["medium", "aggressive"],
-          "url": "https://news.google.com/search?q=infrastruktur+Indonesia+2026"
-        },
-        { 
-          "region": "ID",
-          "trend": "Energi Terbarukan", 
-          "asset": "PGAS, HRUM, ITMG", 
-          "opportunity": "Energi hijau & gas", 
-          "gain": "+8-20%", 
-          "loss": "-6-12%", 
-          "profiles": ["medium"],
-          "url": "https://news.google.com/search?q=energi+terbarukan+Indonesia"
-        },
-        { 
-          "region": "ID",
-          "trend": "Saham Dividen", 
-          "asset": "TLKM, PGAS, BBRI", 
-          "opportunity": "Saham dividen yield tinggi", 
-          "gain": "+8-15%", 
-          "loss": "-5-10%", 
-          "profiles": ["safe"],
-          "url": "https://news.google.com/search?q=saham+dividen+Indonesia"
-        },
-        { 
-          "region": "US",
-          "trend": "Saham Dividen", 
-          "asset": "JNJ, KO, PG", 
-          "opportunity": "Dividend stocks", 
-          "gain": "+10-18%", 
-          "loss": "-8-12%", 
-          "profiles": ["safe"],
-          "url": "https://news.google.com/search?q=dividend+stocks"
-        }
+        { "region": "US", "trend": "EV Overall", "asset": "TSLA, RIVN, BYD, FSR", "opportunity": "Electric vehicles", "gain": "+20-40%", "loss": "-15-25%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=electric+vehicles+2026" },
+        { "region": "US", "trend": "AI/Cloud", "asset": "NVDA, MSFT, GOOGL, AMZN", "opportunity": "AI infrastructure", "gain": "+30-60%", "loss": "-20-35%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=AI+stocks+2026" },
+        { "region": "ID", "trend": "Emas / Logam Mulia", "asset": "ANTM, GGRM, INCO, MDKA", "opportunity": "Mining & metal", "gain": "+8-18%", "loss": "-5-12%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=penambang+emas+Indonesia" },
+        { "region": "ID", "trend": "Infrastruktur", "asset": "WIKA, PTPP, ADHI, JSMR", "opportunity": "Proyek infrastruktur", "gain": "+10-25%", "loss": "-8-15%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=infrastruktur+Indonesia+2026" },
+        { "region": "ID", "trend": "Saham Dividen", "asset": "TLKM, PGAS, BBRI", "opportunity": "Saham dividen yield tinggi", "gain": "+8-15%", "loss": "-5-10%", "profiles": ["safe"], "url": "https://news.google.com/search?q=saham+dividen+Indonesia" }
       ]
     }
   }
