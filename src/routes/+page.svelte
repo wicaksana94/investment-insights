@@ -219,7 +219,7 @@
   </div>
 
   <div class="captcha-container">
-    <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+    <div class="h-captcha" data-sitekey="1fa43efa-6a1c-467a-b082-ad1a6ba0302a"></div>
   </div>
 
   <div class="disclaimer">
