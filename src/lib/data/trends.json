@@ -1,18 +1,20 @@
 {
-  "lastUpdated": "13 Maret 2026",
-  "lastUpdatedTimestamp": "2026-03-13T04:03:00+07:00",
+  "lastUpdated": "12 Maret 2026",
+  "lastUpdatedTimestamp": "2026-03-12T23:00:00+07:00",
   "region": "US",
   "regions": ["US", "ID"],
   "topTrends": {
     "US": [
       { "name": "Old Dominion University", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Old+Dominion+University" },
       { "name": "Temple Israel West Bloomfield", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Temple+Israel+West+Bloomfield" },
-      { "name": "The Players Championship", "volume": "50K+", "growth": "+500%", "url": "https://news.google.com/search?q=The+Players+Championship+golf" },
+      { "name": "The Players Championship", "volume": "50K+", "growth": "+600%", "url": "https://news.google.com/search?q=The+Players+Championship+golf" },
       { "name": "The Players", "volume": "50K+", "growth": "+900%", "url": "https://news.google.com/search?q=The+Players+golf+2026" },
-      { "name": "Washington vs Wisconsin", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Washington+vs+Wisconsin" },
+      { "name": "Celta de Vigo vs Lyon", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Celta+de+Vigo+vs+Lyon" },
       { "name": "Europa League", "volume": "50K+", "growth": "+100%", "url": "https://news.google.com/search?q=Europa+League+2026" },
       { "name": "Auburn Basketball", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Auburn+basketball" },
-      { "name": "NCAA Basketball", "volume": "100K+", "growth": "+100%", "url": "https://news.google.com/search?q=NCAA+basketball" }
+      { "name": "Washington vs Wisconsin", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Washington+vs+Wisconsin" },
+      { "name": "Kyler Murray", "volume": "20K+", "growth": "+900%", "url": "https://news.google.com/search?q=Kyler+Murray" },
+      { "name": "CrossFit Open 26.3", "volume": "20K+", "growth": "+500%", "url": "https://news.google.com/search?q=CrossFit+Open+26.3" }
     ],
     "ID": [
       { "name": "Indonesia vs Australia", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" },
