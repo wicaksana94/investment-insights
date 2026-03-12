@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { inject } from '@vercel/analytics';
+  import trendsData from '$lib/data/trends.json';
 
   onMount(() => {
     inject();
@@ -11,6 +12,8 @@
   function onCaptchaVerify(token) {
     verified = true;
   }
+
+  const { lastUpdated, topTrends, insights } = trendsData;
 </script>
 
 <svelte:head>
@@ -20,144 +23,111 @@
 <div class="container">
   <header>
     <h1>Investment Insights</h1>
-    <p>Google Trends Analysis - 12 Maret 2026</p>
-    <div class="last-updated">Updated: 12 Maret 2026</div>
+    <p>Google Trends Analysis - {lastUpdated}</p>
+    <div class="last-updated">Updated: {lastUpdated}</div>
   </header>
 
   <div class="card">
     <h2>Top Trending di US</h2>
     <div class="top-trends">
-      <div class="trend-item"><div class="name">PSG vs Chelsea</div><div class="growth">+1,000%</div></div>
-      <div class="trend-item"><div class="name">Vinnie Pasquantino</div><div class="growth">+1,000%</div></div>
-      <div class="trend-item"><div class="name">Weather</div><div class="growth">+75%</div></div>
-      <div class="trend-item"><div class="name">Iran California</div><div class="growth">+900%</div></div>
-      <div class="trend-item"><div class="name">Venezuala vs DR</div><div class="growth">+900%</div></div>
-      <div class="trend-item"><div class="name">Rivian R2</div><div class="growth">+100%</div></div>
-      <div class="trend-item"><div class="name">Jake Paul</div><div class="growth">+1,000%</div></div>
-      <div class="trend-item"><div class="name">Cyber Attacks</div><div class="growth">+1,000%</div></div>
+      {#each topTrends as item}
+        <div class="trend-item">
+          <div class="name">{item.name}</div>
+          <div class="growth">{item.growth}</div>
+        </div>
+      {/each}
     </div>
   </div>
 
   <div class="card">
     <h2>1 Hari (Very Short-term)</h2>
-    <span class="timeframe very-short">1 Hari</span>
+    <span class="timeframe very-short">{insights.veryShort.label}</span>
     <table>
-      <tr><th>Tren</th><th>Asset/Saham</th><th>Opportunity</th><th>Estimasi Kenaikan</th><th>Estimasi Penurunan</th></tr>
       <tr>
-        <td>Olahraga (PSG, NBA)</td>
-        <td class="asset-name">DIS, WBD</td>
-        <td>Sports media rights, streaming</td>
-        <td class="estimate gain">+3-5%</td>
-        <td class="estimate loss">-2-3%</td>
+        <th>Tren</th>
+        <th>Asset/Saham</th>
+        <th>Opportunity</th>
+        <th>Estimasi Kenaikan</th>
+        <th>Estimasi Penurunan</th>
       </tr>
-      <tr>
-        <td>Winter Storm</td>
-        <td class="asset-name">XLU, NEE</td>
-        <td>Utility stocks, emergency supplies</td>
-        <td class="estimate gain">+2-4%</td>
-        <td class="estimate loss">-1-2%</td>
-      </tr>
-      <tr>
-        <td>Iran Tensions</td>
-        <td class="asset-name">LMT, RTX, PANW</td>
-        <td>Defense & Cybersecurity</td>
-        <td class="estimate gain">+4-8%</td>
-        <td class="estimate loss">-3-5%</td>
-      </tr>
+      {#each insights.veryShort.items as item}
+        <tr>
+          <td>{item.trend}</td>
+          <td class="asset-name">{item.asset}</td>
+          <td>{item.opportunity}</td>
+          <td class="estimate gain">{item.gain}</td>
+          <td class="estimate loss">{item.loss}</td>
+        </tr>
+      {/each}
     </table>
   </div>
 
   <div class="card">
     <h2>7 Hari (Short-term)</h2>
-    <span class="timeframe short">7 Hari</span>
+    <span class="timeframe short">{insights.short.label}</span>
     <table>
-      <tr><th>Tren</th><th>Asset/Saham</th><th>Opportunity</th><th>Estimasi Kenaikan</th><th>Estimasi Penurunan</th></tr>
       <tr>
-        <td>Olahraga (PSG, NBA)</td>
-        <td class="asset-name">DIS, PENN, DKNG</td>
-        <td>Sports betting stocks, ESPN/Disney</td>
-        <td class="estimate gain">+5-10%</td>
-        <td class="estimate loss">-3-5%</td>
+        <th>Tren</th>
+        <th>Asset/Saham</th>
+        <th>Opportunity</th>
+        <th>Estimasi Kenaikan</th>
+        <th>Estimasi Penurunan</th>
       </tr>
-      <tr>
-        <td>Winter Storm</td>
-        <td class="asset-name">XLU, ED</td>
-        <td>Utility stocks, emergency supplies</td>
-        <td class="estimate gain">+3-6%</td>
-        <td class="estimate loss">-2-4%</td>
-      </tr>
-      <tr>
-        <td>Iran Tensions</td>
-        <td class="asset-name">LMT, RTX, CRWD, ZS</td>
-        <td>Defense (LMT, RTX), Cybersecurity (CRWD)</td>
-        <td class="estimate gain">+8-15%</td>
-        <td class="estimate loss">-5-8%</td>
-      </tr>
+      {#each insights.short.items as item}
+        <tr>
+          <td>{item.trend}</td>
+          <td class="asset-name">{item.asset}</td>
+          <td>{item.opportunity}</td>
+          <td class="estimate gain">{item.gain}</td>
+          <td class="estimate loss">{item.loss}</td>
+        </tr>
+      {/each}
     </table>
   </div>
 
   <div class="card">
     <h2>1 Bulan</h2>
-    <span class="timeframe medium">1 Bulan</span>
+    <span class="timeframe medium">{insights.medium.label}</span>
     <table>
-      <tr><th>Tren</th><th>Asset/Saham</th><th>Opportunity</th><th>Estimasi Kenaikan</th><th>Estimasi Penurunan</th></tr>
       <tr>
-        <td>Rivian R2</td>
-        <td class="asset-name">RIVN, TSLA, LCID</td>
-        <td>EV stocks - RIVN preview launches</td>
-        <td class="estimate gain">+10-20%</td>
-        <td class="estimate loss">-8-12%</td>
+        <th>Tren</th>
+        <th>Asset/Saham</th>
+        <th>Opportunity</th>
+        <th>Estimasi Kenaikan</th>
+        <th>Estimasi Penurunan</th>
       </tr>
-      <tr>
-        <td>Cybersecurity</td>
-        <td class="asset-name">CRWD, ZS, PANW, OKTA</td>
-        <td>Long-term: Enterprise security</td>
-        <td class="estimate gain">+15-25%</td>
-        <td class="estimate loss">-8-15%</td>
-      </tr>
-      <tr>
-        <td>Creator Economy</td>
-        <td class="asset-name">RBLX, SNAP, Pika</td>
-        <td>Influencer platforms, content creation</td>
-        <td class="estimate gain">+8-18%</td>
-        <td class="estimate loss">-5-10%</td>
-      </tr>
+      {#each insights.medium.items as item}
+        <tr>
+          <td>{item.trend}</td>
+          <td class="asset-name">{item.asset}</td>
+          <td>{item.opportunity}</td>
+          <td class="estimate gain">{item.gain}</td>
+          <td class="estimate loss">{item.loss}</td>
+        </tr>
+      {/each}
     </table>
   </div>
 
   <div class="card">
     <h2>6 Bulan - 1 Tahun</h2>
-    <span class="timeframe long">6-12 Bulan</span>
+    <span class="timeframe long">{insights.long.label}</span>
     <table>
-      <tr><th>Tren</th><th>Asset/Saham</th><th>Opportunity</th><th>Estimasi Kenaikan</th><th>Estimasi Penurunan</th></tr>
       <tr>
-        <td>EV Overall</td>
-        <td class="asset-name">TSLA, RIVN, BYD, FSR</td>
-        <td>Electric vehicles - election year subsidies</td>
-        <td class="estimate gain">+20-40%</td>
-        <td class="estimate loss">-15-25%</td>
+        <th>Tren</th>
+        <th>Asset/Saham</th>
+        <th>Opportunity</th>
+        <th>Estimasi Kenaikan</th>
+        <th>Estimasi Penurunan</th>
       </tr>
-      <tr>
-        <td>Sports Media</td>
-        <td class="asset-name">NFLX, AMZN, DIS</td>
-        <td>Netflix sports, Amazon Prime streaming</td>
-        <td class="estimate gain">+15-30%</td>
-        <td class="estimate loss">-10-20%</td>
-      </tr>
-      <tr>
-        <td>Geopolitics</td>
-        <td class="asset-name">LMT, BA, GD, CRWD</td>
-        <td>Defense & cybersecurity - recurring theme</td>
-        <td class="estimate gain">+25-50%</td>
-        <td class="estimate loss">-15-30%</td>
-      </tr>
-      <tr>
-        <td>AI/Cloud</td>
-        <td class="asset-name">NVDA, MSFT, GOOGL, AMZN</td>
-        <td>AI infrastructure & services</td>
-        <td class="estimate gain">+30-60%</td>
-        <td class="estimate loss">-20-35%</td>
-      </tr>
+      {#each insights.long.items as item}
+        <tr>
+          <td>{item.trend}</td>
+          <td class="asset-name">{item.asset}</td>
+          <td>{item.opportunity}</td>
+          <td class="estimate gain">{item.gain}</td>
+          <td class="estimate loss">{item.loss}</td>
+        </tr>
+      {/each}
     </table>
   </div>
 
@@ -171,7 +141,7 @@
   </div>
 
   <footer>
-    Generated by Arya - 12 Maret 2026
+    Generated by Arya - {lastUpdated}
   </footer>
 </div>
 

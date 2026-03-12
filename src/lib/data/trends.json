@@ -1,0 +1,48 @@
+{
+  "lastUpdated": "12 Maret 2026",
+  "topTrends": [
+    { "name": "PSG vs Chelsea", "volume": "200K+", "growth": "+1,000%" },
+    { "name": "Vinnie Pasquantino", "volume": "200K+", "growth": "+1,000%" },
+    { "name": "Weather", "volume": "200K+", "growth": "+75%" },
+    { "name": "Iran California", "volume": "100K+", "growth": "+900%" },
+    { "name": "Venezuala vs DR", "volume": "100K+", "growth": "+900%" },
+    { "name": "Rivian R2", "volume": "10K+", "growth": "+100%" },
+    { "name": "Jake Paul", "volume": "20K+", "growth": "+1,000%" },
+    { "name": "Cyber Attacks", "volume": "20K+", "growth": "+1,000%" }
+  ],
+  "insights": {
+    "veryShort": {
+      "label": "1 Hari",
+      "items": [
+        { "trend": "Olahraga (PSG, NBA)", "asset": "DIS, WBD", "opportunity": "Sports media rights, streaming", "gain": "+3-5%", "loss": "-2-3%" },
+        { "trend": "Winter Storm", "asset": "XLU, NEE", "opportunity": "Utility stocks, emergency supplies", "gain": "+2-4%", "loss": "-1-2%" },
+        { "trend": "Iran Tensions", "asset": "LMT, RTX, PANW", "opportunity": "Defense & Cybersecurity", "gain": "+4-8%", "loss": "-3-5%" }
+      ]
+    },
+    "short": {
+      "label": "7 Hari",
+      "items": [
+        { "trend": "Olahraga (PSG, NBA)", "asset": "DIS, PENN, DKNG", "opportunity": "Sports betting stocks", "gain": "+5-10%", "loss": "-3-5%" },
+        { "trend": "Winter Storm", "asset": "XLU, ED", "opportunity": "Utility stocks", "gain": "+3-6%", "loss": "-2-4%" },
+        { "trend": "Iran Tensions", "asset": "LMT, RTX, CRWD, ZS", "opportunity": "Defense & Cybersecurity", "gain": "+8-15%", "loss": "-5-8%" }
+      ]
+    },
+    "medium": {
+      "label": "1 Bulan",
+      "items": [
+        { "trend": "Rivian R2", "asset": "RIVN, TSLA, LCID", "opportunity": "EV stocks preview launches", "gain": "+10-20%", "loss": "-8-12%" },
+        { "trend": "Cybersecurity", "asset": "CRWD, ZS, PANW, OKTA", "opportunity": "Enterprise security", "gain": "+15-25%", "loss": "-8-15%" },
+        { "trend": "Creator Economy", "asset": "RBLX, SNAP, Pika", "opportunity": "Influencer platforms", "gain": "+8-18%", "loss": "-5-10%" }
+      ]
+    },
+    "long": {
+      "label": "6-12 Bulan",
+      "items": [
+        { "trend": "EV Overall", "asset": "TSLA, RIVN, BYD, FSR", "opportunity": "Electric vehicles", "gain": "+20-40%", "loss": "-15-25%" },
+        { "trend": "Sports Media", "asset": "NFLX, AMZN, DIS", "opportunity": "Streaming sports", "gain": "+15-30%", "loss": "-10-20%" },
+        { "trend": "Geopolitics", "asset": "LMT, BA, GD, CRWD", "opportunity": "Defense & cybersecurity", "gain": "+25-50%", "loss": "-15-30%" },
+        { "trend": "AI/Cloud", "asset": "NVDA, MSFT, GOOGL, AMZN", "opportunity": "AI infrastructure", "gain": "+30-60%", "loss": "-20-35%" }
+      ]
+    }
+  }
+}
