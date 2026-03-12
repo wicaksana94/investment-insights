@@ -82,7 +82,7 @@
       </select>
     </div>
     
-    <div class="last-updated">Updated: {lastUpdated} pukul {formatTimestamp(lastUpdatedTimestamp).split('pukul')[1].trim()} WIB</div>
+    <div class="last-updated">Updated: {lastUpdated} pukul {formatTimestamp(lastUpdatedTimestamp).split('pukul')[1]?.trim() || ''} WIB</div>
   </header>
 
   <div class="card">
@@ -100,125 +100,149 @@
   <div class="card">
     <h2>1 Hari (Very Short-term)</h2>
     <span class="timeframe very-short">{filteredInsights.veryShort.label}</span>
-    <table>
-      <tr>
-        <th>Tren</th>
-        <th>Asset/Saham</th>
-        <th>Opportunity</th>
-        <th title="Ini merupakan estimasi kenaikan dalam 1 hari">Estimasi Kenaikan</th>
-        <th title="Ini merupakan estimasi penurunan dalam 1 hari">Estimasi Penurunan</th>
-        <th>Profile</th>
-      </tr>
-      {#each filteredInsights.veryShort.items as item}
-        <tr>
-          <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
-          <td class="asset-name">{item.asset}</td>
-          <td>{item.opportunity}</td>
-          <td class="estimate gain">{item.gain}</td>
-          <td class="estimate loss">{item.loss}</td>
-          <td class="profiles">
-            {#each item.profiles || [] as profile}
-              <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
-                {getProfileLabel(profile).text}
-              </span>
-            {/each}
-          </td>
-        </tr>
-      {/each}
-    </table>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Tren</th>
+            <th>Asset/Saham</th>
+            <th>Opportunity</th>
+            <th title="Ini merupakan estimasi kenaikan dalam 1 hari">Estimasi Kenaikan</th>
+            <th title="Ini merupakan estimasi penurunan dalam 1 hari">Estimasi Penurunan</th>
+            <th>Profile</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each filteredInsights.veryShort.items as item}
+            <tr>
+              <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
+              <td class="asset-name">{item.asset}</td>
+              <td>{item.opportunity}</td>
+              <td class="estimate gain">{item.gain}</td>
+              <td class="estimate loss">{item.loss}</td>
+              <td class="profiles">
+                {#each item.profiles || [] as profile}
+                  <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                    {getProfileLabel(profile).text}
+                  </span>
+                {/each}
+              </td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    </div>
   </div>
 
   <div class="card">
     <h2>7 Hari (Short-term)</h2>
     <span class="timeframe short">{filteredInsights.short.label}</span>
-    <table>
-      <tr>
-        <th>Tren</th>
-        <th>Asset/Saham</th>
-        <th>Opportunity</th>
-        <th title="Ini merupakan estimasi kenaikan dalam 7 hari">Estimasi Kenaikan</th>
-        <th title="Ini merupakan estimasi penurunan dalam 7 hari">Estimasi Penurunan</th>
-        <th>Profile</th>
-      </tr>
-      {#each filteredInsights.short.items as item}
-        <tr>
-          <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
-          <td class="asset-name">{item.asset}</td>
-          <td>{item.opportunity}</td>
-          <td class="estimate gain">{item.gain}</td>
-          <td class="estimate loss">{item.loss}</td>
-          <td class="profiles">
-            {#each item.profiles || [] as profile}
-              <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
-                {getProfileLabel(profile).text}
-              </span>
-            {/each}
-          </td>
-        </tr>
-      {/each}
-    </table>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Tren</th>
+            <th>Asset/Saham</th>
+            <th>Opportunity</th>
+            <th title="Ini merupakan estimasi kenaikan dalam 7 hari">Estimasi Kenaikan</th>
+            <th title="Ini merupakan estimasi penurunan dalam 7 hari">Estimasi Penurunan</th>
+            <th>Profile</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each filteredInsights.short.items as item}
+            <tr>
+              <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
+              <td class="asset-name">{item.asset}</td>
+              <td>{item.opportunity}</td>
+              <td class="estimate gain">{item.gain}</td>
+              <td class="estimate loss">{item.loss}</td>
+              <td class="profiles">
+                {#each item.profiles || [] as profile}
+                  <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                    {getProfileLabel(profile).text}
+                  </span>
+                {/each}
+              </td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    </div>
   </div>
 
   <div class="card">
     <h2>1 Bulan</h2>
     <span class="timeframe medium">{filteredInsights.medium.label}</span>
-    <table>
-      <tr>
-        <th>Tren</th>
-        <th>Asset/Saham</th>
-        <th>Opportunity</th>
-        <th title="Ini merupakan estimasi kenaikan dalam 1 bulan">Estimasi Kenaikan</th>
-        <th title="Ini merupakan estimasi penurunan dalam 1 bulan">Estimasi Penurunan</th>
-        <th>Profile</th>
-      </tr>
-      {#each filteredInsights.medium.items as item}
-        <tr>
-          <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
-          <td class="asset-name">{item.asset}</td>
-          <td>{item.opportunity}</td>
-          <td class="estimate gain">{item.gain}</td>
-          <td class="estimate loss">{item.loss}</td>
-          <td class="profiles">
-            {#each item.profiles || [] as profile}
-              <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
-                {getProfileLabel(profile).text}
-              </span>
-            {/each}
-          </td>
-        </tr>
-      {/each}
-    </table>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Tren</th>
+            <th>Asset/Saham</th>
+            <th>Opportunity</th>
+            <th title="Ini merupakan estimasi kenaikan dalam 1 bulan">Estimasi Kenaikan</th>
+            <th title="Ini merupakan estimasi penurunan dalam 1 bulan">Estimasi Penurunan</th>
+            <th>Profile</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each filteredInsights.medium.items as item}
+            <tr>
+              <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
+              <td class="asset-name">{item.asset}</td>
+              <td>{item.opportunity}</td>
+              <td class="estimate gain">{item.gain}</td>
+              <td class="estimate loss">{item.loss}</td>
+              <td class="profiles">
+                {#each item.profiles || [] as profile}
+                  <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                    {getProfileLabel(profile).text}
+                  </span>
+                {/each}
+              </td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    </div>
   </div>
 
   <div class="card">
     <h2>6 Bulan - 1 Tahun</h2>
     <span class="timeframe long">{filteredInsights.long.label}</span>
-    <table>
-      <tr>
-        <th>Tren</th>
-        <th>Asset/Saham</th>
-        <th>Opportunity</th>
-        <th title="Ini merupakan estimasi kenaikan dalam 6-12 bulan">Estimasi Kenaikan</th>
-        <th title="Ini merupakan estimasi penurunan dalam 6-12 bulan">Estimasi Penurunan</th>
-        <th>Profile</th>
-      </tr>
-      {#each filteredInsights.long.items as item}
-        <tr>
-          <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
-          <td class="asset-name">{item.asset}</td>
-          <td>{item.opportunity}</td>
-          <td class="estimate gain">{item.gain}</td>
-          <td class="estimate loss">{item.loss}</td>
-          <td class="profiles">
-            {#each item.profiles || [] as profile}
-              <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
-                {getProfileLabel(profile).text}
-              </span>
-            {/each}
-          </td>
-        </tr>
-      {/each}
-    </table>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Tren</th>
+            <th>Asset/Saham</th>
+            <th>Opportunity</th>
+            <th title="Ini merupakan estimasi kenaikan dalam 6-12 bulan">Estimasi Kenaikan</th>
+            <th title="Ini merupakan estimasi penurunan dalam 6-12 bulan">Estimasi Penurunan</th>
+            <th>Profile</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each filteredInsights.long.items as item}
+            <tr>
+              <td><a href={item.url || '#'} target="_blank" rel="noopener noreferrer">{item.trend}</a></td>
+              <td class="asset-name">{item.asset}</td>
+              <td>{item.opportunity}</td>
+              <td class="estimate gain">{item.gain}</td>
+              <td class="estimate loss">{item.loss}</td>
+              <td class="profiles">
+                {#each item.profiles || [] as profile}
+                  <span class="profile-badge" style="background-color: {getProfileLabel(profile).color}">
+                    {getProfileLabel(profile).text}
+                  </span>
+                {/each}
+              </td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    </div>
   </div>
 
   <div class="profile-legend">
@@ -341,27 +365,33 @@
   .medium { background: #3b82f6; color: #fff; }
   .long { background: #10b981; color: #fff; }
 
+  .table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 12px;
+  }
+
   table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 12px;
+    min-width: 600px;
   }
 
   th, td {
     text-align: left;
-    padding: 12px;
+    padding: 12px 8px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
   }
 
   th {
     color: #8892b0;
     font-weight: 500;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
   }
 
-  td:first-child {
-    color: #00d4ff;
-    font-weight: 500;
+  td {
+    font-size: 0.9rem;
   }
 
   td:first-child a {
@@ -376,10 +406,12 @@
   .asset-name {
     color: #fbbf24 !important;
     font-weight: 600;
+    white-space: nowrap;
   }
 
   .estimate {
     font-size: 0.85rem;
+    white-space: nowrap;
   }
 
   .gain {
@@ -524,5 +556,127 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    :global(body) {
+      padding: 15px;
+    }
+
+    header {
+      padding: 25px 0 15px;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+    }
+
+    header p {
+      font-size: 0.9rem;
+    }
+
+    .card {
+      padding: 16px;
+      margin-bottom: 16px;
+      border-radius: 12px;
+    }
+
+    .card h2 {
+      font-size: 1.1rem;
+    }
+
+    .top-trends {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+
+    .trend-item {
+      padding: 10px;
+    }
+
+    .trend-item .name {
+      font-size: 0.8rem;
+    }
+
+    .trend-item .growth {
+      font-size: 0.7rem;
+    }
+
+    th, td {
+      padding: 8px 6px;
+      font-size: 0.75rem;
+    }
+
+    .asset-name {
+      font-size: 0.75rem;
+    }
+
+    .estimate {
+      font-size: 0.75rem;
+    }
+
+    .profile-badge {
+      font-size: 0.6rem;
+      padding: 2px 6px;
+    }
+
+    .region-selector select {
+      font-size: 0.9rem;
+      padding: 6px 12px;
+    }
+
+    .floating-donation {
+      bottom: 12px;
+      right: 12px;
+    }
+
+    .floating-donation a {
+      width: 50px;
+      height: 50px;
+    }
+
+    .legend-items {
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-start;
+    }
+
+    .profile-legend {
+      padding: 12px;
+    }
+
+    .captcha-container {
+      transform: scale(0.85);
+      transform-origin: center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    :global(body) {
+      padding: 10px;
+    }
+
+    header {
+      padding: 20px 0 10px;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    .top-trends {
+      grid-template-columns: 1fr;
+    }
+
+    th, td {
+      padding: 6px 4px;
+      font-size: 0.7rem;
+    }
+
+    .timeframe {
+      font-size: 0.75rem;
+      padding: 3px 8px;
+    }
   }
 </style>
