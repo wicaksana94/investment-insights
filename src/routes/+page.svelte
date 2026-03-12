@@ -360,33 +360,32 @@
   table {
     width: 100%;
     border-collapse: collapse;
-    min-width: 600px;
+    min-width: 500px;
   }
 
   th, td {
     text-align: left;
-    padding: 12px 8px;
+    padding: 10px 8px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
   }
 
   th {
     color: #8892b0;
     font-weight: 500;
-    font-size: 0.8rem;
-    white-space: nowrap;
+    font-size: 0.75rem;
+    background: rgba(255,255,255,0.02);
   }
 
   td {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
-  td:first-child a {
+  td a {
     color: #00d4ff;
     text-decoration: none;
-    border-bottom: none;
   }
 
-  td:first-child a:hover {
+  td a:hover {
     text-decoration: underline;
   }
 
