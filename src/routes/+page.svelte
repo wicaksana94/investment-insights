@@ -82,7 +82,7 @@
       </select>
     </div>
     
-    <div class="last-updated">Updated: {lastUpdated} pukul {formatTimestamp(lastUpdatedTimestamp).split('pukul')[1]?.trim() || ''} WIB</div>
+    <div class="last-updated">Updated: {lastUpdated}</div>
   </header>
 
   <div class="card">
@@ -427,19 +427,23 @@
 
   .top-trends {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
     margin-top: 12px;
   }
 
   .trend-item {
     background: rgba(255,255,255,0.05);
-    padding: 12px;
+    padding: 12px 8px;
     border-radius: 8px;
     text-align: center;
     text-decoration: none;
     color: inherit;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
     transition: background 0.2s;
   }
 
@@ -449,12 +453,13 @@
 
   .trend-item .name {
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
+    word-break: break-word;
   }
 
   .trend-item .growth {
     color: #10b981;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-top: 4px;
   }
 
@@ -509,11 +514,15 @@
 
   .legend-items {
     display: flex;
-    gap: 20px;
     flex-wrap: wrap;
-    align-items: center;
+    gap: 15px;
     font-size: 0.85rem;
     color: #ccc;
+  }
+
+  .legend-items span, 
+  .legend-items text {
+    display: inline;
   }
 
   .floating-donation {
@@ -550,29 +559,29 @@
   /* Mobile Responsive */
   @media (max-width: 768px) {
     :global(body) {
-      padding: 15px;
+      padding: 12px;
     }
 
     header {
-      padding: 25px 0 15px;
+      padding: 20px 0 12px;
     }
 
     header h1 {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
     }
 
     header p {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
     }
 
     .card {
-      padding: 16px;
-      margin-bottom: 16px;
-      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 12px;
+      border-radius: 10px;
     }
 
     .card h2 {
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
 
     .top-trends {
@@ -581,91 +590,107 @@
     }
 
     .trend-item {
-      padding: 10px;
+      padding: 10px 6px;
+      min-height: 50px;
     }
 
     .trend-item .name {
-      font-size: 0.8rem;
-    }
-
-    .trend-item .growth {
       font-size: 0.7rem;
     }
 
+    .trend-item .growth {
+      font-size: 0.65rem;
+    }
+
     th, td {
-      padding: 8px 6px;
-      font-size: 0.75rem;
+      padding: 8px 5px;
+      font-size: 0.7rem;
     }
 
     .asset-name {
-      font-size: 0.75rem;
+      font-size: 0.7rem;
     }
 
     .estimate {
-      font-size: 0.75rem;
+      font-size: 0.7rem;
     }
 
     .profile-badge {
-      font-size: 0.6rem;
-      padding: 2px 6px;
+      font-size: 0.55rem;
+      padding: 2px 5px;
     }
 
     .region-selector select {
-      font-size: 0.9rem;
-      padding: 6px 12px;
+      font-size: 0.85rem;
+      padding: 5px 10px;
     }
 
     .floating-donation {
-      bottom: 12px;
-      right: 12px;
+      bottom: 8px;
+      right: 8px;
     }
 
     .floating-donation a {
-      width: 50px;
-      height: 50px;
+      width: 45px;
+      height: 45px;
     }
 
-    .legend-items {
-      flex-direction: column;
-      gap: 8px;
-      align-items: flex-start;
+    .donation-icon {
+      width: 22px;
+      height: 22px;
     }
 
     .profile-legend {
-      padding: 12px;
+      padding: 10px;
+    }
+
+    .profile-legend h3 {
+      font-size: 0.85rem;
+      margin-bottom: 10px;
+    }
+
+    .legend-items {
+      gap: 10px;
+      font-size: 0.75rem;
     }
 
     .captcha-container {
-      transform: scale(0.85);
+      transform: scale(0.8);
       transform-origin: center;
+    }
+
+    .table-scroll {
+      margin-left: -12px;
+      margin-right: -12px;
+      padding-left: 12px;
     }
   }
 
   @media (max-width: 480px) {
     :global(body) {
-      padding: 10px;
+      padding: 8px;
     }
 
     header {
-      padding: 20px 0 10px;
+      padding: 15px 0 8px;
     }
 
     header h1 {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     .top-trends {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, 1fr);
     }
 
     th, td {
       padding: 6px 4px;
-      font-size: 0.7rem;
+      font-size: 0.65rem;
     }
 
     .timeframe {
-      font-size: 0.75rem;
-      padding: 3px 8px;
+      font-size: 0.7rem;
+      padding: 2px 6px;
     }
   }
 </style>
