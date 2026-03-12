@@ -9,6 +9,25 @@
 
   let selectedRegion = trendsData.region || 'US';
 
+  $: filteredInsights = {
+    veryShort: {
+      ...insights.veryShort,
+      items: insights.veryShort.items.filter(item => item.region === selectedRegion)
+    },
+    short: {
+      ...insights.short,
+      items: insights.short.items.filter(item => item.region === selectedRegion)
+    },
+    medium: {
+      ...insights.medium,
+      items: insights.medium.items.filter(item => item.region === selectedRegion)
+    },
+    long: {
+      ...insights.long,
+      items: insights.long.items.filter(item => item.region === selectedRegion)
+    }
+  };
+
   const { lastUpdated, lastUpdatedTimestamp, regions, topTrends, insights } = trendsData;
 
   function formatTimestamp(isoString) {
@@ -55,7 +74,7 @@
   </header>
 
   <div class="card">
-    <h2>Top Trending di {selectedRegion === 'US' ? 'US' : 'Indonesia'}</h2>
+    <h2>Top Trending di {selectedRegion === 'US' ? 'Amerika Serikat' : 'Indonesia'}</h2>
     <div class="top-trends">
       {#each topTrends[selectedRegion] || topTrends['US'] as item}
         <div class="trend-item">
@@ -68,7 +87,7 @@
 
   <div class="card">
     <h2>1 Hari (Very Short-term)</h2>
-    <span class="timeframe very-short">{insights.veryShort.label}</span>
+    <span class="timeframe very-short">{filteredInsights.veryShort.label}</span>
     <table>
       <tr>
         <th>Tren</th>
@@ -78,7 +97,7 @@
         <th>Estimasi Penurunan</th>
         <th>Profile</th>
       </tr>
-      {#each insights.veryShort.items as item}
+      {#each filteredInsights.veryShort.items as item}
         <tr>
           <td>{item.trend}</td>
           <td class="asset-name">{item.asset}</td>
@@ -99,7 +118,7 @@
 
   <div class="card">
     <h2>7 Hari (Short-term)</h2>
-    <span class="timeframe short">{insights.short.label}</span>
+    <span class="timeframe short">{filteredInsights.short.label}</span>
     <table>
       <tr>
         <th>Tren</th>
@@ -109,7 +128,7 @@
         <th>Estimasi Penurunan</th>
         <th>Profile</th>
       </tr>
-      {#each insights.short.items as item}
+      {#each filteredInsights.short.items as item}
         <tr>
           <td>{item.trend}</td>
           <td class="asset-name">{item.asset}</td>
@@ -130,7 +149,7 @@
 
   <div class="card">
     <h2>1 Bulan</h2>
-    <span class="timeframe medium">{insights.medium.label}</span>
+    <span class="timeframe medium">{filteredInsights.medium.label}</span>
     <table>
       <tr>
         <th>Tren</th>
@@ -140,7 +159,7 @@
         <th>Estimasi Penurunan</th>
         <th>Profile</th>
       </tr>
-      {#each insights.medium.items as item}
+      {#each filteredInsights.medium.items as item}
         <tr>
           <td>{item.trend}</td>
           <td class="asset-name">{item.asset}</td>
@@ -161,7 +180,7 @@
 
   <div class="card">
     <h2>6 Bulan - 1 Tahun</h2>
-    <span class="timeframe long">{insights.long.label}</span>
+    <span class="timeframe long">{filteredInsights.long.label}</span>
     <table>
       <tr>
         <th>Tren</th>
@@ -171,7 +190,7 @@
         <th>Estimasi Penurunan</th>
         <th>Profile</th>
       </tr>
-      {#each insights.long.items as item}
+      {#each filteredInsights.long.items as item}
         <tr>
           <td>{item.trend}</td>
           <td class="asset-name">{item.asset}</td>
