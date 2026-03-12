@@ -406,20 +406,22 @@
 
   .profiles {
     display: flex;
-    gap: 4px;
-    flex-wrap: wrap;
+    gap: 2px;
+    flex-wrap: nowrap;
     align-items: center;
+    white-space: nowrap;
   }
 
   .profile-badge {
     display: inline-block;
-    padding: 3px 6px;
-    border-radius: 10px;
-    font-size: 0.6rem;
+    padding: 2px 4px;
+    border-radius: 6px;
+    font-size: 0.55rem;
     font-weight: 600;
     color: #fff;
     text-transform: uppercase;
-    line-height: 1;
+    line-height: 1.2;
+    flex-shrink: 0;
   }
 
   .top-trends {
