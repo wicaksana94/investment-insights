@@ -1,10 +1,6 @@
 # 📊 Investment Insights
 
 <p align="center">
-  <img src="https://investment-insights-sveltekit.vercel.app/og-image.png" alt="Investment Insights Banner" width="100%" />
-</p>
-
-<p align="center">
   <a href="https://investment-insights-sveltekit.vercel.app">
     <img src="https://img.shields.io/badge/Visit-WebApp-6C63FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
