@@ -1,0 +1,66 @@
+name: Daily Investment Insights Update
+
+on:
+  schedule:
+    # Run daily at 6 AM Jakarta time (UTC+7 = 23:00 UTC)
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+    # Manual trigger
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch Google Trends Data
+        run: |
+          # This is a placeholder - in production you'd integrate with a trends API
+          # For now, we'll just update the timestamp
+          echo "Fetching latest trends data..."
+          
+          # Get current date
+          CURRENT_DATE=$(date '+%d %B %Y')
+          
+          # Update the date in the svelte file
+          sed -i "s/Updated:.*/Updated: $CURRENT_DATE/g" src/routes/+page.svelte
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add .
+          git diff --staged --quiet || git commit -m "Daily update: $(date '+%d %B %Y')"
+          
+          git push
+        env:
+          # Use the default GITHUB_TOKEN which has write permissions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Trigger Vercel Deploy
+        run: |
+          # Trigger Vercel deployment via API
+          curl -s -X POST "https://api.vercel.com/v1/integrations/deploy/prj_rLDebBxZyQVtPRadYXN2PPOnT6Dc,team_6Ufa6QssKwxd1LsmZQQKUJD5" \
+            -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{}'
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
