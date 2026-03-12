@@ -148,7 +148,7 @@ Jika Anda menemukan project ini useful, dukungan Anda sangat berarti!
 
 ### 💖 Donasi via Saweria
 
-Klik untuk donasi: [https://saweria.co/wicaksana94](https://saweria.co/wicaksana94)
+Klik untuk donasi: [https://saweria.co/aryawicaksana](https://saweria.co/aryawicaksana)
 
 <p align="center">
   <img src="https://saweria.co/widgets/qr?streamKey=80ea6ddcf71777f409051bf827faf7fc" alt="Saweria QR Code" width="200" />
