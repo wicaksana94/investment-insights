@@ -149,9 +149,10 @@ Jika Anda menemukan project ini useful, dukungan Anda sangat berarti!
 ### 💖 Donasi via Saweria
 
 <p align="center">
-  <a href="https://saweria.co/aryawicaksana"></a>
+  <img src="/saweria-qr.jpg" alt="Saweria QR Code" width="200" />
+</p>
 
-  <img src="https://saweria.co/widgets/qr?streamKey=80ea6ddcf71777f409051bf827faf7fc" alt="Saweria QR Code" width="200" />
+Klik untuk donasi: [https://saweria.co/aryawicaksana](https://saweria.co/aryawicaksana)
 
 ---
 
