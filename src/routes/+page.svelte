@@ -77,10 +77,10 @@
     <h2>Top Trending di {selectedRegion === 'US' ? 'Amerika Serikat' : 'Indonesia'}</h2>
     <div class="top-trends">
       {#each topTrends[selectedRegion] || topTrends['US'] as item}
-        <div class="trend-item">
+        <a href={item.url} target="_blank" rel="noopener noreferrer" class="trend-item">
           <div class="name">{item.name}</div>
           <div class="growth">{item.growth}</div>
-        </div>
+        </a>
       {/each}
     </div>
   </div>
@@ -390,6 +390,14 @@
     padding: 12px;
     border-radius: 8px;
     text-align: center;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: background 0.2s;
+  }
+
+  .trend-item:hover {
+    background: rgba(255,255,255,0.1);
   }
 
   .trend-item .name {
