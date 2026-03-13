@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "13 Maret 2026",
-  "lastUpdatedTimestamp": "2026-03-13T23:00:00Z",
+  "lastUpdated": "14 Maret 2026",
+  "lastUpdatedTimestamp": "2026-03-13T23:05:00Z",
   "region": "US",
   "regions": ["US", "ID"],
   "topTrends": {
     "US": [
       { "name": "Chipotle", "volume": "100K+", "growth": "+100%", "url": "https://news.google.com/search?q=Chipotle" },
       { "name": "Bulls vs Lakers", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Bulls+vs+Lakers" },
-      { "name": "Extreme Heat Watch", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=extreme+heat+watch" },
       { "name": "Wisconsin vs Illinois", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Wisconsin+vs+Illinois" },
-      { "name": "Tennessee Basketball", "volume": "20K+", "growth": "+800%", "url": "https://news.google.com/search?q=Tennessee+basketball" },
-      { "name": "Wrexham vs Swansea", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Wrexham+vs+Swansea" },
-      { "name": "AEP Power Outage", "volume": "20K+", "growth": "+800%", "url": "https://news.google.com/search?q=AEP+power+outage" },
       { "name": "Ohio State vs Michigan", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Ohio+State+vs+Michigan" },
-      { "name": "Winter Storm Warning", "volume": "20K+", "growth": "+500%", "url": "https://news.google.com/search?q=winter+storm+warning" },
-      { "name": "Jerome Powell", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Jerome+Powell" }
+      { "name": "Kentucky vs Florida", "volume": "50K+", "growth": "+600%", "url": "https://news.google.com/search?q=Kentucky+vs+Florida" },
+      { "name": "Extreme Heat Watch", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=extreme+heat+watch" },
+      { "name": "Tennessee Basketball", "volume": "20K+", "growth": "+800%", "url": "https://news.google.com/search?q=Tennessee+Basketball" },
+      { "name": "Wrexham vs Swansea", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Wrexham+vs+Swansea" },
+      { "name": "Jerome Powell", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Jerome+Powell" },
+      { "name": "USS Tripoli", "volume": "20K+", "growth": "+400%", "url": "https://news.google.com/search?q=USS+Tripoli" }
     ],
     "ID": [
       { "name": "Indonesia vs Australia", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" },
@@ -31,16 +31,15 @@
     "veryShort": {
       "label": "1 Hari",
       "items": [
-        { "region": "US", "trend": "NCAA/NBA Basketball", "asset": "DIS, WBD, TNT", "opportunity": "Sports media & broadcasting", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=NBA+basketball" },
-        { "region": "US", "trend": "Jerome Powell / Fed", "asset": "SPY, QQQ, DIA", "opportunity": "Federal Reserve policy impact", "gain": "+2-4%", "loss": "-2-4%", "profiles": ["medium"], "url": "https://news.google.com/search?q=Jerome+Powell" },
+        { "region": "US", "trend": "NCAA Basketball", "asset": "DIS, WBD, TNT", "opportunity": "Sports media & broadcasting", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=NCAA+basketball" },
         { "region": "ID", "trend": "Olahraga (Timnas)", "asset": "EMTK, MNCN, SCMA", "opportunity": "Media & hak siar olahraga", "gain": "+2-4%", "loss": "-1-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" }
       ]
     },
     "short": {
       "label": "7 Hari",
       "items": [
-        { "region": "US", "trend": "College Basketball", "asset": "DIS, PENN, MGM", "opportunity": "March Madness coverage", "gain": "+3-6%", "loss": "-2-4%", "profiles": ["medium"], "url": "https://news.google.com/search?q=NCAA+basketball" },
-        { "region": "US", "trend": "Weather Extremes", "asset": "CAT, DE, FL", "opportunity": "Infrastructure & utilities", "gain": "+2-5%", "loss": "-1-3%", "profiles": ["medium"], "url": "https://news.google.com/search?q=extreme+heat+winter+storm" },
+        { "region": "US", "trend": "Jerome Powell/Fed", "asset": "SPY, QQQ, DIA", "opportunity": "Federal Reserve policy", "gain": "+2-4%", "loss": "-2-3%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=Jerome+Powell+Fed" },
+        { "region": "US", "trend": "Winter Storm Weather", "asset": "CAT, DE", "opportunity": "Weather-related stocks", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium"], "url": "https://news.google.com/search?q=winter+storm+2026" },
         { "region": "ID", "trend": "Harga Emas", "asset": "ANTM, GGRM", "opportunity": "Emas & holdings", "gain": "+2-5%", "loss": "-1-3%", "profiles": ["safe"], "url": "https://news.google.com/search?q=harga+emas+Indonesia" },
         { "region": "ID", "trend": "Crypto", "asset": "INDODAX, Tokocrypto", "opportunity": "Kripto exchanges", "gain": "+8-20%", "loss": "-12-18%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=krypto+Indonesia" }
       ]
@@ -48,7 +47,7 @@
     "medium": {
       "label": "1 Bulan",
       "items": [
-        { "region": "US", "trend": "Rivian", "asset": "RIVN, TSLA, LCID", "opportunity": "EV stocks", "gain": "+10-20%", "loss": "-8-12%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=Rivian+2026" },
+        { "region": "US", "trend": "Chipotle/Restaurant", "asset": "CMG, MCD, SBUX", "opportunity": "Fast casual dining", "gain": "+5-12%", "loss": "-4-8%", "profiles": ["medium"], "url": "https://news.google.com/search?q=Chipotle+stock" },
         { "region": "US", "trend": "Cybersecurity", "asset": "CRWD, ZS, PANW", "opportunity": "Enterprise security", "gain": "+15-25%", "loss": "-8-15%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=cybersecurity+stocks" },
         { "region": "ID", "trend": "IHSG / Saham Lokal", "asset": "BBCA, BMRI, TLKM, ASII", "opportunity": "Saham blue chip Indonesia", "gain": "+5-12%", "loss": "-4-8%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=IHSG+saham+Indonesia" },
         { "region": "ID", "trend": "Reksa Dana", "asset": "Reksa Dana Saham", "opportunity": "Mixed equity fund", "gain": "+6-15%", "loss": "-5-10%", "profiles": ["medium"], "url": "https://news.google.com/search?q=reksa+dana+saham+2026" }
