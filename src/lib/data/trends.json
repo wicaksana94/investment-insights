@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "12 Maret 2026",
-  "lastUpdatedTimestamp": "2026-03-12T23:00:00+07:00",
+  "lastUpdated": "13 Maret 2026",
+  "lastUpdatedTimestamp": "2026-03-13T04:10:00Z",
   "region": "US",
   "regions": ["US", "ID"],
   "topTrends": {
     "US": [
       { "name": "Old Dominion University", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Old+Dominion+University" },
-      { "name": "Temple Israel West Bloomfield", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Temple+Israel+West+Bloomfield" },
-      { "name": "The Players Championship", "volume": "50K+", "growth": "+600%", "url": "https://news.google.com/search?q=The+Players+Championship+golf" },
-      { "name": "The Players", "volume": "50K+", "growth": "+900%", "url": "https://news.google.com/search?q=The+Players+golf+2026" },
-      { "name": "Celta de Vigo vs Lyon", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Celta+de+Vigo+vs+Lyon" },
-      { "name": "Europa League", "volume": "50K+", "growth": "+100%", "url": "https://news.google.com/search?q=Europa+League+2026" },
-      { "name": "Auburn Basketball", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Auburn+basketball" },
-      { "name": "Washington vs Wisconsin", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Washington+vs+Wisconsin" },
-      { "name": "Kyler Murray", "volume": "20K+", "growth": "+900%", "url": "https://news.google.com/search?q=Kyler+Murray" },
-      { "name": "CrossFit Open 26.3", "volume": "20K+", "growth": "+500%", "url": "https://news.google.com/search?q=CrossFit+Open+26.3" }
+      { "name": "Michigan Synagogue Shooting", "volume": "200K+", "growth": "+900%", "url": "https://news.google.com/search?q=Michigan+Synagogue+Shooting" },
+      { "name": "UNC Basketball", "volume": "100K+", "growth": "+900%", "url": "https://news.google.com/search?q=UNC+Basketball" },
+      { "name": "The Players Championship", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=The+Players+Championship+golf" },
+      { "name": "Nuggets vs Spurs", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Nuggets+vs+Spurs" },
+      { "name": "Bulls vs Lakers", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Bulls+vs+Lakers" },
+      { "name": "Celtics vs Thunder", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Celtics+vs+Thunder" },
+      { "name": "Ernie Anastos", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Ernie+Anastos" },
+      { "name": "KC-135", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=KC-135" },
+      { "name": "Kyler Murray Vikings", "volume": "50K+", "growth": "+400%", "url": "https://news.google.com/search?q=Kyler+Murray+Vikings" }
     ],
     "ID": [
       { "name": "Indonesia vs Australia", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" },
@@ -31,7 +31,7 @@
     "veryShort": {
       "label": "1 Hari",
       "items": [
-        { "region": "US", "trend": "NCAA Basketball", "asset": "DIS, WBD, TNT", "opportunity": "Sports media & broadcasting", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=NCAA+basketball+2026" },
+        { "region": "US", "trend": "NCAA/NBA Basketball", "asset": "DIS, WBD, TNT", "opportunity": "Sports media & broadcasting", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=NBA+basketball" },
         { "region": "ID", "trend": "Olahraga (Timnas)", "asset": "EMTK, MNCN, SCMA", "opportunity": "Media & hak siar olahraga", "gain": "+2-4%", "loss": "-1-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" }
       ]
     },
@@ -39,7 +39,7 @@
       "label": "7 Hari",
       "items": [
         { "region": "US", "trend": "The Players Championship", "asset": "DIS, WBD", "opportunity": "Golf tournament coverage", "gain": "+3-6%", "loss": "-2-4%", "profiles": ["medium"], "url": "https://news.google.com/search?q=The+Players+Championship+golf" },
-        { "region": "US", "trend": "Europa League", "asset": "DIS, PENN", "opportunity": "European football streaming", "gain": "+2-5%", "loss": "-1-3%", "profiles": ["medium"], "url": "https://news.google.com/search?q=Europa+League" },
+        { "region": "US", "trend": "NBA Playoff Race", "asset": "DIS, PENN", "opportunity": "Basketball streaming & media", "gain": "+2-5%", "loss": "-1-3%", "profiles": ["medium"], "url": "https://news.google.com/search?q=NBA+2026" },
         { "region": "ID", "trend": "Harga Emas", "asset": "ANTM, GGRM", "opportunity": "Emas & holdings", "gain": "+2-5%", "loss": "-1-3%", "profiles": ["safe"], "url": "https://news.google.com/search?q=harga+emas+Indonesia" },
         { "region": "ID", "trend": "Crypto", "asset": "INDODAX, Tokocrypto", "opportunity": "Kripto exchanges", "gain": "+8-20%", "loss": "-12-18%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=krypto+Indonesia" }
       ]
