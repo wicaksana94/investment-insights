@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "14 March 2026",
-  "lastUpdatedTimestamp": "2026-03-14T23:00:00Z",
+  "lastUpdated": "14 Maret 2026",
+  "lastUpdatedTimestamp": "2026-03-14T23:08:00Z",
   "region": "US",
   "regions": ["US", "ID"],
   "topTrends": {
     "US": [
-      { "name": "kharg island", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=kharg+island" },
-      { "name": "timberwolves vs warriors", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=timberwolves+vs+warriors" },
-      { "name": "usa vs canada wbc", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=usa+vs+canada+wbc" },
-      { "name": "extreme heat watch", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=extreme+heat+watch" },
-      { "name": "cavaliers vs mavericks", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=cavaliers+vs+mavericks" },
-      { "name": "knicks vs pacers", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=knicks+vs+pacers" },
-      { "name": "ucla vs mi state", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=ucla+vs+mi+state" },
-      { "name": "austin wells", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=austin+wells" },
-      { "name": "netanyahu dead", "volume": "20K+", "growth": "+300%", "url": "https://news.google.com/search?q=netanyahu+dead" },
-      { "name": "federal reserve chair jerome powell", "volume": "20K+", "growth": "+900%", "url": "https://news.google.com/search?q=jerome+powell" }
+      { "name": "real madrid - elche c. f.", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=real+madrid+elche" },
+      { "name": "real madrid vs elche", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=real+madrid+vs+elche" },
+      { "name": "west ham vs man city", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=west+ham+vs+man+city" },
+      { "name": "pi day deals", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=pi+day+deals" },
+      { "name": "arsenal vs everton", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=arsenal+vs+everton" },
+      { "name": "blizzard warning", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=blizzard+warning" },
+      { "name": "arkansas basketball", "volume": "100K+", "growth": "+500%", "url": "https://news.google.com/search?q=arkansas+basketball" },
+      { "name": "día del número pi", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=pi+day" },
+      { "name": "hornets vs spurs", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=hornets+vs+spurs" },
+      { "name": "netanyahu", "volume": "50K+", "growth": "+500%", "url": "https://news.google.com/search?q=netanyahu" }
     ],
     "ID": [
       { "name": "Indonesia vs Australia", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" },
