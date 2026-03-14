@@ -1,20 +1,20 @@
 {
   "lastUpdated": "14 Maret 2026",
-  "lastUpdatedTimestamp": "2026-03-13T23:05:00Z",
+  "lastUpdatedTimestamp": "2026-03-14T06:04:00Z",
   "region": "US",
   "regions": ["US", "ID"],
   "topTrends": {
     "US": [
-      { "name": "Chipotle", "volume": "100K+", "growth": "+100%", "url": "https://news.google.com/search?q=Chipotle" },
-      { "name": "Bulls vs Lakers", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Bulls+vs+Lakers" },
-      { "name": "Wisconsin vs Illinois", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Wisconsin+vs+Illinois" },
-      { "name": "Ohio State vs Michigan", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Ohio+State+vs+Michigan" },
-      { "name": "Kentucky vs Florida", "volume": "50K+", "growth": "+600%", "url": "https://news.google.com/search?q=Kentucky+vs+Florida" },
-      { "name": "Extreme Heat Watch", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=extreme+heat+watch" },
-      { "name": "Tennessee Basketball", "volume": "20K+", "growth": "+800%", "url": "https://news.google.com/search?q=Tennessee+Basketball" },
-      { "name": "Wrexham vs Swansea", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Wrexham+vs+Swansea" },
-      { "name": "Jerome Powell", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=Jerome+Powell" },
-      { "name": "USS Tripoli", "volume": "20K+", "growth": "+400%", "url": "https://news.google.com/search?q=USS+Tripoli" }
+      { "name": "kharg island", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=kharg+island" },
+      { "name": "timberwolves vs warriors", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=timberwolves+vs+warriors" },
+      { "name": "usa vs canada wbc", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=usa+vs+canada+wbc" },
+      { "name": "extreme heat watch", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=extreme+heat+watch" },
+      { "name": "cavaliers vs mavericks", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=cavaliers+vs+mavericks" },
+      { "name": "knicks vs pacers", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=knicks+vs+pacers" },
+      { "name": "ucla vs mi state", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=ucla+vs+mi+state" },
+      { "name": "austin wells", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=austin+wells" },
+      { "name": "netanyahu dead", "volume": "20K+", "growth": "+300%", "url": "https://news.google.com/search?q=netanyahu+dead" },
+      { "name": "federal reserve chair jerome powell", "volume": "20K+", "growth": "+900%", "url": "https://news.google.com/search?q=jerome+powell" }
     ],
     "ID": [
       { "name": "Indonesia vs Australia", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" },
