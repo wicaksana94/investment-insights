@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "15 March 2026",
-  "lastUpdatedTimestamp": "2026-03-15T23:00:00Z",
+  "lastUpdated": "16 March 2026",
+  "lastUpdatedTimestamp": "2026-03-16T23:00:00Z",
   "region": "US",
   "regions": ["US", "ID"],
   "topTrends": {
     "US": [
-      { "name": "oscars 2026", "volume": "500K+", "growth": "+500%", "url": "https://news.google.com/search?q=oscars+2026" },
-      { "name": "ncaa bracket", "volume": "500K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=ncaa+bracket" },
-      { "name": "barcelona vs sevilla", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=barcelona+vs+sevilla" },
-      { "name": "cameron young", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=cameron+young" },
-      { "name": "mavericks vs cavaliers", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=mavericks+vs+cavaliers" },
-      { "name": "michigan basketball", "volume": "200K+", "growth": "+500%", "url": "https://news.google.com/search?q=michigan+basketball" },
-      { "name": "pistons vs raptors", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=pistons+vs+raptors" },
-      { "name": "timberwolves vs thunder", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=timberwolves+vs+thunder" },
-      { "name": "liverpool vs tottenham", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=liverpool+vs+tottenham" },
-      { "name": "oscars red carpet 2026", "volume": "20K+", "growth": "+600%", "url": "https://news.google.com/search?q=oscars+red+carpet+2026" },
-      { "name": "tornado warning", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=tornado+warning" },
-      { "name": "mothers day", "volume": "50K+", "growth": "+600%", "url": "https://news.google.com/search?q=mothers+day" },
-      { "name": "jannik sinner", "volume": "50K+", "growth": "+900%", "url": "https://news.google.com/search?q=jannik+sinner" },
-      { "name": "man united vs aston villa", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=man+united+vs+aston+villa" },
-      { "name": "players championship payout", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=players+championship+payout" }
+      { "name": "oscar winners 2026", "volume": "2M+", "growth": "+1,000%", "url": "https://news.google.com/search?q=oscar+winners+2026" },
+      { "name": "warriors vs knicks", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=warriors+vs+knicks" },
+      { "name": "michael b jordan", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=michael+b+jordan" },
+      { "name": "barbra streisand", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=barbra+streisand" },
+      { "name": "maya rudolph", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=maya+rudolph" },
+      { "name": "ed harris", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=ed+harris" },
+      { "name": "autumn durald arkapaw", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=autumn+durald+arkapaw" },
+      { "name": "diane keaton", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=diane+keaton" },
+      { "name": "rob reiner", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=rob+reiner" },
+      { "name": "anna wintour", "volume": "50K+", "growth": "+700%", "url": "https://news.google.com/search?q=anna+wintour" },
+      { "name": "susie wiles", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=susie+wiles" },
+      { "name": "aden holloway", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=aden+holloway" },
+      { "name": "emmy", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=emmy+2026" },
+      { "name": "justin fields", "volume": "50K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=justin+fields" },
+      { "name": "ludwig göransson", "volume": "50K+", "growth": "+800%", "url": "https://news.google.com/search?q=ludwig+goransson" }
     ],
     "ID": [
       { "name": "Indonesia vs Australia", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" },
@@ -36,8 +36,8 @@
     "veryShort": {
       "label": "1 Hari",
       "items": [
-        { "region": "US", "trend": "NCAA Basketball/March Madness", "asset": "DIS, WBD, TNT, ESPN", "opportunity": "Sports media & broadcasting", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=ncaa+bracket" },
-        { "region": "US", "trend": "Oscars 2026", "asset": "DIS, WBD, NFLX", "opportunity": "Entertainment & awards", "gain": "+2-4%", "loss": "-1-2%", "profiles": ["medium"], "url": "https://news.google.com/search?q=oscars+2026" },
+        { "region": "US", "trend": "Oscars 2026 Winners", "asset": "DIS, WBD, NFLX", "opportunity": "Entertainment & awards", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium"], "url": "https://news.google.com/search?q=oscar+winners+2026" },
+        { "region": "US", "trend": "NBA (Warriors vs Knicks/Wizards)", "asset": "DIS, WBD, TNT, ESPN", "opportunity": "Sports media & broadcasting", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=warriors+vs+knicks" },
         { "region": "ID", "trend": "Olahraga (Timnas)", "asset": "EMTK, MNCN, SCMA", "opportunity": "Media & hak siar olahraga", "gain": "+2-4%", "loss": "-1-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" }
       ]
     },
@@ -45,7 +45,7 @@
       "label": "7 Hari",
       "items": [
         { "region": "US", "trend": "Jerome Powell/Fed", "asset": "SPY, QQQ, DIA", "opportunity": "Federal Reserve policy", "gain": "+2-4%", "loss": "-2-3%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=Jerome+Powell+Fed" },
-        { "region": "US", "trend": "Severe Weather (Tornado)", "asset": "CAT, DE", "opportunity": "Weather-related stocks", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium"], "url": "https://news.google.com/search?q=tornado+warning" },
+        { "region": "US", "trend": "Tech/Earnings Season", "asset": "AAPL, MSFT, GOOGL, AMZN", "opportunity": "Big Tech earnings", "gain": "+3-6%", "loss": "-2-4%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=tech+earnings+2026" },
         { "region": "ID", "trend": "Harga Emas", "asset": "ANTM, GGRM", "opportunity": "Emas & holdings", "gain": "+2-5%", "loss": "-1-3%", "profiles": ["safe"], "url": "https://news.google.com/search?q=harga+emas+Indonesia" },
         { "region": "ID", "trend": "Crypto", "asset": "INDODAX, Tokocrypto", "opportunity": "Kripto exchanges", "gain": "+8-20%", "loss": "-12-18%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=krypto+Indonesia" }
       ]
