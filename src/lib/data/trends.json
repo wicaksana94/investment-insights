@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "17 March 2026",
-  "lastUpdatedTimestamp": "2026-03-17T23:00:00Z",
+  "lastUpdated": "18 March 2026",
+  "lastUpdatedTimestamp": "2026-03-18T23:00:00Z",
   "region": "US",
   "regions": ["US", "ID"],
   "topTrends": {
     "US": [
-      { "name": "manchester city - real madrid", "volume": "500K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=manchester+city+real+madrid" },
-      { "name": "joe kent", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=joe+kent" },
-      { "name": "meteor hit cleveland ohio", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=meteor+hit+cleveland+ohio" },
-      { "name": "st patricks day", "volume": "200K+", "growth": "+900%", "url": "https://news.google.com/search?q=st+patricks+day" },
-      { "name": "arsenal vs leverkusen", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=arsenal+vs+leverkusen" },
-      { "name": "jaylen waddle", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=jaylen+waddle" },
-      { "name": "chelsea vs psg", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=chelsea+vs+psg" },
-      { "name": "usa vs venezuela baseball", "volume": "200K+", "growth": "+700%", "url": "https://news.google.com/search?q=usa+vs+venezuela+baseball" },
-      { "name": "lollapalooza 2026", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=lollapalooza+2026" },
-      { "name": "lakers vs rockets", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=lakers+vs+rockets" },
-      { "name": "real madrid", "volume": "100K+", "growth": "+900%", "url": "https://news.google.com/search?q=real+madrid" },
-      { "name": "kohls stores closing", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=kohls+stores+closing" },
-      { "name": "dune 3 trailer", "volume": "50K+", "growth": "+600%", "url": "https://news.google.com/search?q=dune+3+trailer" },
-      { "name": "spiderman brand new day", "volume": "20K+", "growth": "+300%", "url": "https://news.google.com/search?q=spiderman+brand+new+day" },
-      { "name": "thunder vs magic", "volume": "10K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=thunder+vs+magic" }
+      { "name": "NCAA March Madness 2026", "volume": "500K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=ncaa+madness+2026" },
+      { "name": "apple vision pro 2", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=apple+vision+pro+2" },
+      { "name": "federal reserve interest rate", "volume": "200K+", "growth": "+850%", "url": "https://news.google.com/search?q=federal+reserve+interest+rate+march+2026" },
+      { "name": "china tariffs tech", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=china+tariffs+tech+2026" },
+      { "name": "doge department efficiency", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=doge+department+efficiency" },
+      { "name": "spacex starship launch", "volume": "200K+", "growth": "+900%", "url": "https://news.google.com/search?q=spacex+starship+launch" },
+      { "name": "tesla model y refresh", "volume": "100K+", "growth": "+750%", "url": "https://news.google.com/search?q=tesla+model+y+refresh+2026" },
+      { "name": "crypto bitcoin ETF", "volume": "200K+", "growth": "+600%", "url": "https://news.google.com/search?q=bitcoin+ETF+2026" },
+      { "name": "nvidia Blackwell", "volume": "100K+", "growth": "+500%", "url": "https://news.google.com/search?q=nvidia+blackwell+chip" },
+      { "name": "ukraine peace talks", "volume": "200K+", "growth": "+800%", "url": "https://news.google.com/search?q=ukraine+peace+talks+2026" },
+      { "name": "microsoft azure ai", "volume": "100K+", "growth": "+450%", "url": "https://news.google.com/search?q=microsoft+azure+ai+update" },
+      { "name": "retail sales data", "volume": "50K+", "growth": "+300%", "url": "https://news.google.com/search?q=retail+sales+data+march+2026" },
+      { "name": "jobless claims", "volume": "50K+", "growth": "+250%", "url": "https://news.google.com/search?q=jobless+claims+weekly" },
+      { "name": "oil prices crude", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=oil+prices+crude+march+2026" },
+      { "name": "amazon aws lambda", "volume": "50K+", "growth": "+350%", "url": "https://news.google.com/search?q=amazon+aws+lambda+update" }
     ],
     "ID": [
       { "name": "Indonesia vs Australia", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" },
@@ -36,18 +36,18 @@
     "veryShort": {
       "label": "1 Hari",
       "items": [
-        { "region": "US", "trend": "Champions League (Man City vs Real Madrid, Chelsea vs PSG, Arsenal vs Leverkusen)", "volume": "500K+", "opportunity": "Sports betting & media", "asset": "DIS, WBD, DKNG, PENN", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=manchester+city+real+madrid" },
-        { "region": "US", "trend": "NBA (Lakers vs Rockets, Thunder vs Magic)", "volume": "200K+", "opportunity": "Sports media & broadcasting", "asset": "DIS, WBD, TNT, ESPN", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=lakers+vs+rockets" },
-        { "region": "US", "trend": "St. Patrick's Day", "volume": "200K+", "opportunity": "Retail & entertainment", "asset": "WMT, TGT, NKE", "gain": "+2-4%", "loss": "-1-2%", "profiles": ["medium"], "url": "https://news.google.com/search?q=st+patricks+day" },
+        { "region": "US", "trend": "March Madness 2026 (NCAA Tournament)", "volume": "500K+", "opportunity": "Sports betting & media", "asset": "DIS, WBD, DKNG, PENN", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=ncaa+madness+2026" },
+        { "region": "US", "trend": "Federal Reserve Interest Rate Decision", "volume": "200K+", "opportunity": "Fed policy & rate-sensitive sectors", "asset": "SPY, QQQ, DIA, Banks (JPM, BAC, GS)", "gain": "+2-4%", "loss": "-2-3%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=federal+reserve+interest+rate+march+2026" },
+        { "region": "US", "trend": "China Tariffs on Tech", "volume": "200K+", "opportunity": "Trade policy impact on tech", "asset": "AAPL, MSFT, GOOGL, semiconductors", "gain": "+3-6%", "loss": "-4-8%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=china+tariffs+tech+2026" },
         { "region": "ID", "trend": "Olahraga (Timnas)", "volume": "100K+", "opportunity": "Media & hak siar olahraga", "asset": "EMTK, MNCN, SCMA", "gain": "+2-4%", "loss": "-1-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" }
       ]
     },
     "short": {
       "label": "7 Hari",
       "items": [
-        { "region": "US", "trend": "Jerome Powell/Fed", "volume": "200K+", "opportunity": "Federal Reserve policy", "asset": "SPY, QQQ, DIA", "gain": "+2-4%", "loss": "-2-3%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=Jerome+Powell+Fed" },
-        { "region": "US", "trend": "Tech/Earnings Season", "volume": "200K+", "opportunity": "Big Tech earnings", "asset": "AAPL, MSFT, GOOGL, AMZN", "gain": "+3-6%", "loss": "-2-4%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=tech+earnings+2026" },
-        { "region": "US", "trend": "Kohl's Store Closures", "volume": "20K+", "opportunity": "Retail distress", "asset": "TGT, WMT, Dollar stores", "gain": "+2-3%", "loss": "-3-5%", "profiles": ["medium"], "url": "https://news.google.com/search?q=kohls+stores+closing" },
+        { "region": "US", "trend": "DOGE & Government Efficiency", "volume": "100K+", "opportunity": "Government spending cuts", "asset": "Defense contractors, GDS", "gain": "+2-4%", "loss": "-3-5%", "profiles": ["medium"], "url": "https://news.google.com/search?q=doge+department+efficiency" },
+        { "region": "US", "trend": "SpaceX Starship Launch", "volume": "200K+", "opportunity": "Space & aerospace", "asset": "LMT, RTN, ULA partners", "gain": "+3-6%", "loss": "-2-4%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=spacex+starship+launch" },
+        { "region": "US", "trend": "Tesla Model Y Refresh", "volume": "100K+", "opportunity": "EV demand & competition", "asset": "TSLA, RIVN, BYD, FSR", "gain": "+3-5%", "loss": "-3-6%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=tesla+model+y+refresh+2026" },
         { "region": "ID", "trend": "Harga Emas", "volume": "50K+", "opportunity": "Emas & holdings", "asset": "ANTM, GGRM", "gain": "+2-5%", "loss": "-1-3%", "profiles": ["safe"], "url": "https://news.google.com/search?q=harga+emas+Indonesia" },
         { "region": "ID", "trend": "Crypto", "volume": "50K+", "opportunity": "Kripto exchanges", "asset": "INDODAX, Tokocrypto", "gain": "+8-20%", "loss": "-12-18%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=krypto+Indonesia" }
       ]
@@ -55,9 +55,9 @@
     "medium": {
       "label": "1 Bulan",
       "items": [
-        { "region": "US", "trend": "Dune 3 / Movie Entertainment", "volume": "50K+", "opportunity": "Film & entertainment", "asset": "DIS, WBD, NFLX, AMC", "gain": "+5-12%", "loss": "-4-8%", "profiles": ["medium"], "url": "https://news.google.com/search?q=dune+3+trailer" },
-        { "region": "US", "trend": "Cybersecurity", "volume": "100K+", "opportunity": "Enterprise security", "asset": "CRWD, ZS, PANW", "gain": "+15-25%", "loss": "-8-15%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=cybersecurity+stocks" },
-        { "region": "US", "trend": "Lollapalooza 2026 / Music Festivals", "volume": "100K+", "opportunity": "Live events & music", "asset": "Live Nation, Spotify", "gain": "+5-10%", "loss": "-3-6%", "profiles": ["medium"], "url": "https://news.google.com/search?q=lollapalooza+2026" },
+        { "region": "US", "trend": "Apple Vision Pro 2", "volume": "200K+", "opportunity": "AR/VR & wearable tech", "asset": "AAPL, Meta, MSFT", "gain": "+5-12%", "loss": "-4-8%", "profiles": ["medium"], "url": "https://news.google.com/search?q=apple+vision+pro+2" },
+        { "region": "US", "trend": "Nvidia Blackwell Chip", "volume": "100K+", "opportunity": "AI hardware & data centers", "asset": "NVDA, AMD, INTC", "gain": "+15-25%", "loss": "-8-15%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=nvidia+blackwell+chip" },
+        { "region": "US", "trend": "Bitcoin ETF Inflows", "volume": "200K+", "opportunity": "Crypto exposure", "asset": "GBTC, IBIT, FBTC", "gain": "+8-15%", "loss": "-10-18%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=bitcoin+ETF+2026" },
         { "region": "ID", "trend": "IHSG / Saham Lokal", "volume": "50K+", "opportunity": "Saham blue chip Indonesia", "asset": "BBCA, BMRI, TLKM, ASII", "gain": "+5-12%", "loss": "-4-8%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=IHSG+saham+Indonesia" },
         { "region": "ID", "trend": "Reksa Dana", "volume": "20K+", "opportunity": "Mixed equity fund", "asset": "Reksa Dana Saham", "gain": "+6-15%", "loss": "-5-10%", "profiles": ["medium"], "url": "https://news.google.com/search?q=reksa+dana+saham+2026" }
       ]
@@ -65,9 +65,9 @@
     "long": {
       "label": "6-12 Bulan",
       "items": [
-        { "region": "US", "trend": "EV Overall", "volume": "200K+", "opportunity": "Electric vehicles", "asset": "TSLA, RIVN, BYD, FSR", "gain": "+20-40%", "loss": "-15-25%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=electric+vehicles+2026" },
-        { "region": "US", "trend": "AI/Cloud", "volume": "300K+", "opportunity": "AI infrastructure", "asset": "NVDA, MSFT, GOOGL, AMZN", "gain": "+30-60%", "loss": "-20-35%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=AI+stocks+2026" },
-        { "region": "US", "trend": "Marvel/Spider-Man Movies", "volume": "50K+", "opportunity": "Entertainment & streaming", "asset": "DIS, NFLX", "gain": "+8-15%", "loss": "-5-10%", "profiles": ["medium"], "url": "https://news.google.com/search?q=spiderman+brand+new+day" },
+        { "region": "US", "trend": "AI/Cloud Infrastructure", "volume": "300K+", "opportunity": "AI data centers & cloud", "asset": "NVDA, MSFT, GOOGL, AMZN, CRM", "gain": "+30-60%", "loss": "-20-35%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=AI+infrastructure+stocks+2026" },
+        { "region": "US", "trend": "EV Market Expansion", "volume": "200K+", "opportunity": "Electric vehicles & charging", "asset": "TSLA, RIVN, BYD, FSR, CHPT", "gain": "+20-40%", "loss": "-15-25%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=electric+vehicles+2026" },
+        { "region": "US", "trend": "Defense & Aerospace", "volume": "150K+", "opportunity": "Geopolitical spending", "asset": "LMT, RTN, BA, NOC", "gain": "+12-20%", "loss": "-8-12%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=defense+spending+2026" },
         { "region": "ID", "trend": "Emas / Logam Mulia", "volume": "50K+", "opportunity": "Mining & metal", "asset": "ANTM, GGRM, INCO, MDKA", "gain": "+8-18%", "loss": "-5-12%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=penambang+emas+Indonesia" },
         { "region": "ID", "trend": "Infrastruktur", "volume": "100K+", "opportunity": "Proyek infrastruktur", "asset": "WIKA, PTPP, ADHI, JSMR", "gain": "+10-25%", "loss": "-8-15%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=infrastruktur+Indonesia+2026" },
         { "region": "ID", "trend": "Saham Dividen", "volume": "50K+", "opportunity": "Saham dividen yield tinggi", "asset": "TLKM, PGAS, BBRI", "gain": "+8-15%", "loss": "-5-10%", "profiles": ["safe"], "url": "https://news.google.com/search?q=saham+dividen+Indonesia" }
