@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "18 March 2026",
-  "lastUpdatedTimestamp": "2026-03-18T23:00:00Z",
+  "lastUpdated": "19 March 2026",
+  "lastUpdatedTimestamp": "2026-03-19T23:00:00Z",
   "region": "US",
   "regions": ["US", "ID"],
   "topTrends": {
     "US": [
-      { "name": "NCAA March Madness 2026", "volume": "500K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=ncaa+madness+2026" },
-      { "name": "apple vision pro 2", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=apple+vision+pro+2" },
-      { "name": "federal reserve interest rate", "volume": "200K+", "growth": "+850%", "url": "https://news.google.com/search?q=federal+reserve+interest+rate+march+2026" },
-      { "name": "china tariffs tech", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=china+tariffs+tech+2026" },
-      { "name": "doge department efficiency", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=doge+department+efficiency" },
-      { "name": "spacex starship launch", "volume": "200K+", "growth": "+900%", "url": "https://news.google.com/search?q=spacex+starship+launch" },
-      { "name": "tesla model y refresh", "volume": "100K+", "growth": "+750%", "url": "https://news.google.com/search?q=tesla+model+y+refresh+2026" },
-      { "name": "crypto bitcoin ETF", "volume": "200K+", "growth": "+600%", "url": "https://news.google.com/search?q=bitcoin+ETF+2026" },
-      { "name": "nvidia Blackwell", "volume": "100K+", "growth": "+500%", "url": "https://news.google.com/search?q=nvidia+blackwell+chip" },
-      { "name": "ukraine peace talks", "volume": "200K+", "growth": "+800%", "url": "https://news.google.com/search?q=ukraine+peace+talks+2026" },
-      { "name": "microsoft azure ai", "volume": "100K+", "growth": "+450%", "url": "https://news.google.com/search?q=microsoft+azure+ai+update" },
-      { "name": "retail sales data", "volume": "50K+", "growth": "+300%", "url": "https://news.google.com/search?q=retail+sales+data+march+2026" },
-      { "name": "jobless claims", "volume": "50K+", "growth": "+250%", "url": "https://news.google.com/search?q=jobless+claims+weekly" },
-      { "name": "oil prices crude", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=oil+prices+crude+march+2026" },
-      { "name": "amazon aws lambda", "volume": "50K+", "growth": "+350%", "url": "https://news.google.com/search?q=amazon+aws+lambda+update" }
+      { "name": "Men's March Madness 2026", "volume": "2M+", "growth": "+1,000%", "url": "https://news.google.com/search?q=march+madness+2026" },
+      { "name": "Duke vs Siena", "volume": "1M+", "growth": "+1,000%", "url": "https://news.google.com/search?q=duke+vs+siena" },
+      { "name": "Bachelorette Cancelled", "volume": "500K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=bachelorette+cancelled" },
+      { "name": "TCU vs Ohio State", "volume": "500K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=tcu+vs+ohio+state" },
+      { "name": "Duke Score", "volume": "200K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=duke+score" },
+      { "name": "Michigan State Basketball", "volume": "50K+", "growth": "+500%", "url": "https://news.google.com/search?q=michigan+state+basketball" },
+      { "name": "Arkansas Basketball", "volume": "20K+", "growth": "+700%", "url": "https://news.google.com/search?q=arkansas+basketball" },
+      { "name": "Cade Cunningham", "volume": "100K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=cade+cunningham" },
+      { "name": "McNeese Basketball", "volume": "100K+", "growth": "+800%", "url": "https://news.google.com/search?q=mcneese+basketball" },
+      { "name": "F35", "volume": "20K+", "growth": "+400%", "url": "https://news.google.com/search?q=f35+fighter" },
+      { "name": "Eid Mubarak", "volume": "20K+", "growth": "+400%", "url": "https://news.google.com/search?q=eid+mubarak" },
+      { "name": "Pearl Harbor", "volume": "20K+", "growth": "+600%", "url": "https://news.google.com/search?q=pearl+harbor" },
+      { "name": "Duggar", "volume": "100K+", "growth": "+600%", "url": "https://news.google.com/search?q=duggar" },
+      { "name": "Chuck Norris", "volume": "20K+", "growth": "+1,000%", "url": "https://news.google.com/search?q=chuck+norris" },
+      { "name": "Beauty in Black Season 3", "volume": "20K+", "growth": "+200%", "url": "https://news.google.com/search?q=beauty+in+black+season+3" }
     ],
     "ID": [
       { "name": "Indonesia vs Australia", "volume": "100K+", "growth": "+400%", "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" },
@@ -36,18 +36,18 @@
     "veryShort": {
       "label": "1 Hari",
       "items": [
-        { "region": "US", "trend": "March Madness 2026 (NCAA Tournament)", "volume": "500K+", "opportunity": "Sports betting & media", "asset": "DIS, WBD, DKNG, PENN", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=ncaa+madness+2026" },
-        { "region": "US", "trend": "Federal Reserve Interest Rate Decision", "volume": "200K+", "opportunity": "Fed policy & rate-sensitive sectors", "asset": "SPY, QQQ, DIA, Banks (JPM, BAC, GS)", "gain": "+2-4%", "loss": "-2-3%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=federal+reserve+interest+rate+march+2026" },
-        { "region": "US", "trend": "China Tariffs on Tech", "volume": "200K+", "opportunity": "Trade policy impact on tech", "asset": "AAPL, MSFT, GOOGL, semiconductors", "gain": "+3-6%", "loss": "-4-8%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=china+tariffs+tech+2026" },
+        { "region": "US", "trend": "March Madness 2026 (NCAA Tournament)", "volume": "2M+", "opportunity": "Sports betting & media", "asset": "DIS, WBD, DKNG, PENN", "gain": "+3-5%", "loss": "-2-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=march+madness+2026" },
+        { "region": "US", "trend": "Duke vs Siena NCAA Game", "volume": "1M+", "opportunity": "College sports viewership", "asset": "ESPN, DIS", "gain": "+2-4%", "loss": "-1-2%", "profiles": ["medium"], "url": "https://news.google.com/search?q=duke+vs+siena" },
+        { "region": "US", "trend": "TCU vs Ohio State", "volume": "500K+", "opportunity": "Sports media & betting", "asset": "DKNG, PENN, ESPN", "gain": "+2-3%", "loss": "-1-2%", "profiles": ["medium"], "url": "https://news.google.com/search?q=tcu+vs+ohio+state" },
         { "region": "ID", "trend": "Olahraga (Timnas)", "volume": "100K+", "opportunity": "Media & hak siar olahraga", "asset": "EMTK, MNCN, SCMA", "gain": "+2-4%", "loss": "-1-3%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=Indonesia+vs+Australia+football" }
       ]
     },
     "short": {
       "label": "7 Hari",
       "items": [
-        { "region": "US", "trend": "DOGE & Government Efficiency", "volume": "100K+", "opportunity": "Government spending cuts", "asset": "Defense contractors, GDS", "gain": "+2-4%", "loss": "-3-5%", "profiles": ["medium"], "url": "https://news.google.com/search?q=doge+department+efficiency" },
-        { "region": "US", "trend": "SpaceX Starship Launch", "volume": "200K+", "opportunity": "Space & aerospace", "asset": "LMT, RTN, ULA partners", "gain": "+3-6%", "loss": "-2-4%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=spacex+starship+launch" },
-        { "region": "US", "trend": "Tesla Model Y Refresh", "volume": "100K+", "opportunity": "EV demand & competition", "asset": "TSLA, RIVN, BYD, FSR", "gain": "+3-5%", "loss": "-3-6%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=tesla+model+y+refresh+2026" },
+        { "region": "US", "trend": "March Madness Tournament", "volume": "2M+", "opportunity": "Sports media & betting", "asset": "DIS, WBD, DKNG, ESPN", "gain": "+4-8%", "loss": "-2-4%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=ncaa+tournament+2026" },
+        { "region": "US", "trend": "Bachelorette Cancelled", "volume": "500K+", "opportunity": "TV ratings impact", "asset": "DIS, WBD", "gain": "+1-3%", "loss": "-2-4%", "profiles": ["medium"], "url": "https://news.google.com/search?q=bachelorette+cancelled" },
+        { "region": "US", "trend": "F35 Fighter News", "volume": "20K+", "opportunity": "Defense sector", "asset": "LMT, RTN, BA, NOC", "gain": "+2-4%", "loss": "-1-3%", "profiles": ["medium"], "url": "https://news.google.com/search?q=f35+fighter" },
         { "region": "ID", "trend": "Harga Emas", "volume": "50K+", "opportunity": "Emas & holdings", "asset": "ANTM, GGRM", "gain": "+2-5%", "loss": "-1-3%", "profiles": ["safe"], "url": "https://news.google.com/search?q=harga+emas+Indonesia" },
         { "region": "ID", "trend": "Crypto", "volume": "50K+", "opportunity": "Kripto exchanges", "asset": "INDODAX, Tokocrypto", "gain": "+8-20%", "loss": "-12-18%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=krypto+Indonesia" }
       ]
@@ -55,9 +55,9 @@
     "medium": {
       "label": "1 Bulan",
       "items": [
-        { "region": "US", "trend": "Apple Vision Pro 2", "volume": "200K+", "opportunity": "AR/VR & wearable tech", "asset": "AAPL, Meta, MSFT", "gain": "+5-12%", "loss": "-4-8%", "profiles": ["medium"], "url": "https://news.google.com/search?q=apple+vision+pro+2" },
-        { "region": "US", "trend": "Nvidia Blackwell Chip", "volume": "100K+", "opportunity": "AI hardware & data centers", "asset": "NVDA, AMD, INTC", "gain": "+15-25%", "loss": "-8-15%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=nvidia+blackwell+chip" },
-        { "region": "US", "trend": "Bitcoin ETF Inflows", "volume": "200K+", "opportunity": "Crypto exposure", "asset": "GBTC, IBIT, FBTC", "gain": "+8-15%", "loss": "-10-18%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=bitcoin+ETF+2026" },
+        { "region": "US", "trend": "March Madness NCAA Tournament", "volume": "2M+", "opportunity": "Sports betting legalization", "asset": "DKNG, PENN, MGM, CAKE", "gain": "+8-15%", "loss": "-5-10%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=sports+betting+stocks+2026" },
+        { "region": "US", "trend": "Defense Spending (F35)", "volume": "20K+", "opportunity": "Aerospace & defense", "asset": "LMT, RTN, BA, NOC", "gain": "+5-10%", "loss": "-3-6%", "profiles": ["medium"], "url": "https://news.google.com/search?q=defense+spending+2026" },
+        { "region": "US", "trend": "Streaming Entertainment", "volume": "500K+", "opportunity": "Streaming services", "asset": "DIS, WBD, NFLX, PARA", "gain": "+5-12%", "loss": "-4-8%", "profiles": ["medium"], "url": "https://news.google.com/search?q=streaming+tv+2026" },
         { "region": "ID", "trend": "IHSG / Saham Lokal", "volume": "50K+", "opportunity": "Saham blue chip Indonesia", "asset": "BBCA, BMRI, TLKM, ASII", "gain": "+5-12%", "loss": "-4-8%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=IHSG+saham+Indonesia" },
         { "region": "ID", "trend": "Reksa Dana", "volume": "20K+", "opportunity": "Mixed equity fund", "asset": "Reksa Dana Saham", "gain": "+6-15%", "loss": "-5-10%", "profiles": ["medium"], "url": "https://news.google.com/search?q=reksa+dana+saham+2026" }
       ]
@@ -65,9 +65,9 @@
     "long": {
       "label": "6-12 Bulan",
       "items": [
-        { "region": "US", "trend": "AI/Cloud Infrastructure", "volume": "300K+", "opportunity": "AI data centers & cloud", "asset": "NVDA, MSFT, GOOGL, AMZN, CRM", "gain": "+30-60%", "loss": "-20-35%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=AI+infrastructure+stocks+2026" },
-        { "region": "US", "trend": "EV Market Expansion", "volume": "200K+", "opportunity": "Electric vehicles & charging", "asset": "TSLA, RIVN, BYD, FSR, CHPT", "gain": "+20-40%", "loss": "-15-25%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=electric+vehicles+2026" },
+        { "region": "US", "trend": "Sports Betting Industry", "volume": "500K+", "opportunity": "Legalization expansion", "asset": "DKNG, PENN, MGM, CAKE, BETZ", "gain": "+30-60%", "loss": "-20-35%", "profiles": ["aggressive"], "url": "https://news.google.com/search?q=sports+betting+industry+2026" },
         { "region": "US", "trend": "Defense & Aerospace", "volume": "150K+", "opportunity": "Geopolitical spending", "asset": "LMT, RTN, BA, NOC", "gain": "+12-20%", "loss": "-8-12%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=defense+spending+2026" },
+        { "region": "US", "trend": "Streaming Wars", "volume": "500K+", "opportunity": "Content & subscription", "asset": "DIS, NFLX, WBD, AMZN", "gain": "+15-30%", "loss": "-10-20%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=streaming+services+2026" },
         { "region": "ID", "trend": "Emas / Logam Mulia", "volume": "50K+", "opportunity": "Mining & metal", "asset": "ANTM, GGRM, INCO, MDKA", "gain": "+8-18%", "loss": "-5-12%", "profiles": ["safe", "medium"], "url": "https://news.google.com/search?q=penambang+emas+Indonesia" },
         { "region": "ID", "trend": "Infrastruktur", "volume": "100K+", "opportunity": "Proyek infrastruktur", "asset": "WIKA, PTPP, ADHI, JSMR", "gain": "+10-25%", "loss": "-8-15%", "profiles": ["medium", "aggressive"], "url": "https://news.google.com/search?q=infrastruktur+Indonesia+2026" },
         { "region": "ID", "trend": "Saham Dividen", "volume": "50K+", "opportunity": "Saham dividen yield tinggi", "asset": "TLKM, PGAS, BBRI", "gain": "+8-15%", "loss": "-5-10%", "profiles": ["safe"], "url": "https://news.google.com/search?q=saham+dividen+Indonesia" }
